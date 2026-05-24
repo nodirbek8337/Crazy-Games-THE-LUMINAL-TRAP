@@ -21,9 +21,8 @@ public static class CrazyGamesIntegration
         {
             CrazySDK.Init(() => completed = true);
         }
-        catch (Exception exception)
+        catch (Exception)
         {
-            Debug.LogError("CrazySDK init failed: " + exception.Message);
             yield break;
         }
 
@@ -67,9 +66,8 @@ public static class CrazyGamesIntegration
         CrazySDK.Ad.RequestAd(
             CrazyAdType.Midgame,
             null,
-            error =>
+            _ =>
             {
-                Debug.Log("CrazySDK midgame ad unavailable: " + error);
                 completed = true;
             },
             () => completed = true
@@ -99,9 +97,8 @@ public static class CrazyGamesIntegration
         CrazySDK.Ad.RequestAd(
             CrazyAdType.Rewarded,
             null,
-            error =>
+            _ =>
             {
-                Debug.Log("CrazySDK rewarded ad unavailable: " + error);
                 completed = true;
             },
             () =>
