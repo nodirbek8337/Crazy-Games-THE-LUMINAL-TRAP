@@ -3,8 +3,6 @@ using UnityEngine;
 
 public class FinalElevator : MonoBehaviour, IGoActionReceiver
 {
-    private const float SceneStartAdSdkWaitTimeout = 5f;
-
     [Header("Timing")]
     [Min(0f)] public float rideDuration = 4f;
     [Min(0f)] public float dingDongToOpenDelay = 2f;
@@ -44,18 +42,15 @@ public class FinalElevator : MonoBehaviour, IGoActionReceiver
 
     private void Start()
     {
+        StartCoroutine(CrazyGamesIntegration.EnsureInitialized());
         SetupClosedRidingState();
         StartCoroutine(PlayFinalElevatorSequence());
     }
 
     private IEnumerator PlayFinalElevatorSequence()
     {
-        CrazyGamesAdService.RefreshSdkStatus();
-
-        if (!CrazyGamesAdService.IsSdkReady)
-            yield return StartCoroutine(CrazyGamesAdService.WaitForSdkReady(SceneStartAdSdkWaitTimeout));
-
-        yield return StartCoroutine(CrazyGamesAdService.ShowInterstitialAndWait(true, 0f));
+        // reklama
+        yield return StartCoroutine(CrazyGamesIntegration.ShowMidgameAdAndWait());
 
         if (rideDuration > 0f)
             yield return new WaitForSeconds(rideDuration);
@@ -103,7 +98,7 @@ public class FinalElevator : MonoBehaviour, IGoActionReceiver
         if (elevatorDoorCollider != null)
             elevatorDoorCollider.SetActive(false);
 
-        CrazyGamesBridge.GameplayStart();
+        CrazyGamesIntegration.GameplayStart();
         yield break;
     }
 
@@ -153,7 +148,7 @@ public class FinalElevator : MonoBehaviour, IGoActionReceiver
 
     private IEnumerator CloseDoorSequence()
     {
-        CrazyGamesBridge.GameplayStop();
+        CrazyGamesIntegration.GameplayStop();
         isClosingOrOpening = true;
         isDoorOpen = false;
         SetOpenState(false);
@@ -201,7 +196,7 @@ public class FinalElevator : MonoBehaviour, IGoActionReceiver
         if (elevatorDoorCollider != null)
             elevatorDoorCollider.SetActive(false);
 
-        CrazyGamesBridge.GameplayStart();
+        CrazyGamesIntegration.GameplayStart();
         yield return null;
         isClosingOrOpening = false;
     }

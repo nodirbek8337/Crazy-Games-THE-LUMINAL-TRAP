@@ -6,10 +6,7 @@ using TMPro;
 
 public class MainMenuLogic : MonoBehaviour
 {
-    private const float DefaultSceneStartAdSdkWaitTimeout = 5f;
     private const float LoadingDotsInterval = 0.35f;
-    private const float MainMenuInitializationFallbackDelay = 8f;
-    private const float MainMenuAdStartDelay = 0.35f;
 
     public Canvas loadingCanvas;
     public Canvas mainMenuCanvas;
@@ -22,7 +19,6 @@ public class MainMenuLogic : MonoBehaviour
     [SerializeField] private Vector2 spinnerSize = new Vector2(72f, 72f);
     [SerializeField] private Vector2 spinnerPosition = new Vector2(0f, 92f);
     [SerializeField] private Color spinnerColor = new Color(0.85f, 0.85f, 0.85f, 0.9f);
-    [SerializeField] private float sceneStartAdSdkWaitTimeout = DefaultSceneStartAdSdkWaitTimeout;
 
     [Header("Scene Settings")]
     public string sceneName = "Prologue";
@@ -40,13 +36,13 @@ public class MainMenuLogic : MonoBehaviour
 
     void Start()
     {
-        CrazyGamesBridge.GameplayStop();
+        StartCoroutine(CrazyGamesIntegration.EnsureInitialized());
+        CrazyGamesIntegration.GameplayStop();
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
 
         EnsureLoadingReferences();
         CompleteMainMenuInitialization();
-        StartCoroutine(ShowSceneStartAdAfterMenuOpens());
     }
 
     public void StartGameButton()
@@ -101,31 +97,6 @@ public class MainMenuLogic : MonoBehaviour
 
         RenderSettings.ambientMode = UnityEngine.Rendering.AmbientMode.Skybox;
         RenderSettings.ambientIntensity = 1f;
-    }
-
-    private IEnumerator InitializeMainMenu()
-    {
-        CrazyGamesAdService.RefreshSdkStatus();
-
-        if (!CrazyGamesAdService.IsSdkReady)
-            yield return StartCoroutine(CrazyGamesAdService.WaitForSdkReady(sceneStartAdSdkWaitTimeout));
-
-        yield return StartCoroutine(CrazyGamesAdService.ShowInterstitialAndWait(true, 0f));
-        CompleteMainMenuInitialization();
-    }
-
-    private IEnumerator ForceCompleteMainMenuInitializationAfterDelay()
-    {
-        yield return new WaitForSecondsRealtime(MainMenuInitializationFallbackDelay);
-        CompleteMainMenuInitialization();
-    }
-
-    private IEnumerator ShowSceneStartAdAfterMenuOpens()
-    {
-        if (MainMenuAdStartDelay > 0f)
-            yield return new WaitForSecondsRealtime(MainMenuAdStartDelay);
-
-        yield return StartCoroutine(InitializeMainMenu());
     }
 
     private void CompleteMainMenuInitialization()

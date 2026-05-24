@@ -7,6 +7,7 @@ using UnityStandardAssets.CrossPlatformInput;
 
 public class ElevatorButtonController : MonoBehaviour
 {
+    private const string HintUnavailableMessage = "Rewarded ad is not available.";
     private static ElevatorButtonController activeButton;
 
     private enum ElevatorDirection
@@ -14,7 +15,7 @@ public class ElevatorButtonController : MonoBehaviour
         Auto = 0,
         Top = 1,
         Bottom = 2,
-        Ads = 3
+        Hint = 3
     }
 
     public ElevatorController elevatorController;
@@ -24,7 +25,7 @@ public class ElevatorButtonController : MonoBehaviour
     public Animator animator;
     public AudioSource audioSource;
     public AudioClip buttonPressSound;
-    [Header("Ads Hint UI")]
+    [Header("Hint UI")]
     [FormerlySerializedAs("answerText")]
     [SerializeField] private TextMeshProUGUI messageTextComponent;
     [SerializeField] private float answerMessageDuration = 4f;
@@ -34,12 +35,8 @@ public class ElevatorButtonController : MonoBehaviour
     private string reachTag = "MainCamera";
 
     private Coroutine answerMessageRoutine;
-    private bool isProcessingAdsHint;
+    private bool isProcessingHint;
     private bool playerInRange;
-
-    private const string LocalizationTableName = "Localization";
-    private const string AdsPromptKey = "ADS_HINT_PROMPT";
-    private const string RewardedUnavailableKey = "ADS_HINT_REWARDED_UNAVAILABLE";
 
     void Start()
     {
@@ -83,7 +80,7 @@ public class ElevatorButtonController : MonoBehaviour
 
         if (isReachInteractor && isInsideElevator)
         {
-            if (IsAdsButtonUnavailable() || !CanUseAdsHintHere())
+            if (IsHintButtonUnavailable() || !CanUseHintHere())
                 return;
 
             playerInRange = true;
@@ -117,25 +114,23 @@ public class ElevatorButtonController : MonoBehaviour
                 return "Top";
             case ElevatorDirection.Bottom:
                 return "Bottom";
-            case ElevatorDirection.Ads:
-                return "Ads";
+            case ElevatorDirection.Hint:
+                return "Hint";
             default:
                 string objectName = gameObject.name.ToLowerInvariant();
                 if (objectName.Contains("top"))
                     return "Top";
                 if (objectName.Contains("bottom"))
                     return "Bottom";
-                if (objectName.Contains("ads"))
-                    return "Ads";
+                if (objectName.Contains("hint"))
+                    return "Hint";
                 return "Top";
         }
     }
 
     private string GetInteractionPromptText()
     {
-        return GetElevatorCommand() == "Ads"
-            ? InteractionPromptLocalization.GetLocalizedString(LocalizationTableName, AdsPromptKey)
-            : InteractionPromptLocalization.GetPrompt();
+        return InteractionPromptLocalization.GetPrompt();
     }
 
     private bool IsPlayerInsideElevator()
@@ -205,17 +200,17 @@ public class ElevatorButtonController : MonoBehaviour
             audioSource?.PlayOneShot(buttonPressSound);
 
             string elevatorCommand = GetElevatorCommand();
-            if (elevatorCommand == "Ads")
+            if (elevatorCommand == "Hint")
             {
-                if (!CanUseAdsHintHere())
+                if (!CanUseHintHere())
                 {
-                    RestoreAdsPromptIfPossible();
+                    RestoreHintPromptIfPossible();
                     return;
                 }
 
-                if (!isProcessingAdsHint)
+                if (!isProcessingHint)
                 {
-                    StartCoroutine(HandleAdsHintInteraction());
+                    StartCoroutine(HandleHintInteraction());
                 }
                 return;
             }
@@ -224,28 +219,29 @@ public class ElevatorButtonController : MonoBehaviour
         }
     }
 
-    private IEnumerator HandleAdsHintInteraction()
+    private IEnumerator HandleHintInteraction()
     {
-        if (elevatorController != null && !elevatorController.TryUseAdsHintThisFloor())
+        if (elevatorController != null && !elevatorController.TryUseHintThisFloor())
         {
-            RestoreAdsPromptIfPossible();
+            RestoreHintPromptIfPossible();
             yield break;
         }
 
-        isProcessingAdsHint = true;
-        bool rewardGranted = false;
-        yield return StartCoroutine(CrazyGamesAdService.ShowRewardedAndWait(result => rewardGranted = result, 5f));
-        isProcessingAdsHint = false;
+        isProcessingHint = true;
+        // reklama
+        bool hintGranted = false;
+        yield return StartCoroutine(CrazyGamesIntegration.ShowRewardedAdAndWait(result => hintGranted = result));
+        isProcessingHint = false;
 
-        if (!rewardGranted || elevatorController == null)
+        if (!hintGranted || elevatorController == null)
         {
-            ShowTemporaryAnswer(InteractionPromptLocalization.GetLocalizedString(LocalizationTableName, RewardedUnavailableKey));
-            RestoreAdsPromptIfPossible();
+            ShowTemporaryAnswer(HintUnavailableMessage);
+            RestoreHintPromptIfPossible();
             yield break;
         }
 
         ShowPersistentAnswer(elevatorController.GetCurrentAnomalyDescription());
-        RestoreAdsPromptIfPossible();
+        RestoreHintPromptIfPossible();
     }
 
     private void ShowTemporaryAnswer(string message)
@@ -293,9 +289,9 @@ public class ElevatorButtonController : MonoBehaviour
         answerMessageRoutine = null;
     }
 
-    private void RestoreAdsPromptIfPossible()
+    private void RestoreHintPromptIfPossible()
     {
-        if (!playerInRange || elevatorController == null || !elevatorController.CanUseButtons() || IsAdsButtonUnavailable() || !CanUseAdsHintHere())
+        if (!playerInRange || elevatorController == null || !elevatorController.CanUseButtons() || IsHintButtonUnavailable() || !CanUseHintHere())
             return;
 
         activeButton = this;
@@ -305,19 +301,19 @@ public class ElevatorButtonController : MonoBehaviour
             reachUIText.text = GetInteractionPromptText();
     }
 
-    private bool IsAdsButtonUnavailable()
+    private bool IsHintButtonUnavailable()
     {
-        return GetElevatorCommand() == "Ads"
+        return GetElevatorCommand() == "Hint"
             && elevatorController != null
-            && elevatorController.HasUsedAdsHintThisFloor();
+            && elevatorController.HasUsedHintThisFloor();
     }
 
-    private bool CanUseAdsHintHere()
+    private bool CanUseHintHere()
     {
-        if (GetElevatorCommand() != "Ads")
+        if (GetElevatorCommand() != "Hint")
             return true;
 
-        return elevatorController != null && elevatorController.CanUseAdsHint();
+        return elevatorController != null && elevatorController.CanUseHint();
     }
 
     private void ResolveMessageTextComponent()

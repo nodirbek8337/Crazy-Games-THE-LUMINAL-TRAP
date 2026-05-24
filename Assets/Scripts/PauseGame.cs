@@ -131,7 +131,7 @@ public class PauseGame : MonoBehaviour
 
         if (pause)
         {
-            CrazyGamesBridge.GameplayStop();
+            CrazyGamesIntegration.GameplayStop();
             cachedTimeScale = Mathf.Approximately(Time.timeScale, 0f) ? 1f : Time.timeScale;
             PauseSceneAudio();
             Time.timeScale = 0f;
@@ -140,7 +140,7 @@ public class PauseGame : MonoBehaviour
         {
             Time.timeScale = Mathf.Approximately(cachedTimeScale, 0f) ? 1f : cachedTimeScale;
             ResumeSceneAudio();
-            CrazyGamesBridge.GameplayStart();
+            CrazyGamesIntegration.GameplayStart();
         }
     }
 
@@ -152,7 +152,7 @@ public class PauseGame : MonoBehaviour
 
         if (freeze)
         {
-            CrazyGamesBridge.GameplayStop();
+            CrazyGamesIntegration.GameplayStop();
             cachedTimeScale = Mathf.Approximately(Time.timeScale, 0f) ? 1f : Time.timeScale;
             PauseSceneAudio();
             Time.timeScale = 0f;
@@ -161,7 +161,7 @@ public class PauseGame : MonoBehaviour
         {
             Time.timeScale = Mathf.Approximately(cachedTimeScale, 0f) ? 1f : cachedTimeScale;
             ResumeSceneAudio();
-            CrazyGamesBridge.GameplayStart();
+            CrazyGamesIntegration.GameplayStart();
         }
 
         Cursor.lockState = freeze ? CursorLockMode.None : CursorLockMode.Locked;

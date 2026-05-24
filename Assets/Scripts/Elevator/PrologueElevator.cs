@@ -9,8 +9,6 @@ public class PrologueElevator : MonoBehaviour, IGoActionReceiver
     private const float RideStartDelay = 3f;
     private const float PrologueRideDuration = 14f;
     private const float PrologueLogicDelay = 2f;
-    private const float SceneStartAdSdkWaitTimeout = 5f;
-
     [Header("Elevator State")]
     public bool isBlockingEvents = true;
     public bool isDoorOpen = true;
@@ -43,6 +41,7 @@ public class PrologueElevator : MonoBehaviour, IGoActionReceiver
 
     private void Start()
     {
+        StartCoroutine(CrazyGamesIntegration.EnsureInitialized());
         ResolveReferences();
         SetupClosedStateSilently();
         StartCoroutine(PlaySceneStartSequence());
@@ -50,12 +49,8 @@ public class PrologueElevator : MonoBehaviour, IGoActionReceiver
 
     private IEnumerator PlaySceneStartSequence()
     {
-        CrazyGamesAdService.RefreshSdkStatus();
-
-        if (!CrazyGamesAdService.IsSdkReady)
-            yield return StartCoroutine(CrazyGamesAdService.WaitForSdkReady(SceneStartAdSdkWaitTimeout));
-
-        yield return StartCoroutine(CrazyGamesAdService.ShowInterstitialAndWait(true, 0f));
+        // reklama
+        yield return StartCoroutine(CrazyGamesIntegration.ShowMidgameAdAndWait());
         yield return StartCoroutine(OpenDoor());
     }
 
@@ -159,7 +154,7 @@ public class PrologueElevator : MonoBehaviour, IGoActionReceiver
             elevatorDoorCollider.SetActive(false);
 
         isBlockingEvents = false;
-        CrazyGamesBridge.GameplayStart();
+        CrazyGamesIntegration.GameplayStart();
     }
 
     public void OpenDoorSecondDialogue()
@@ -187,7 +182,7 @@ public class PrologueElevator : MonoBehaviour, IGoActionReceiver
 
     private void CloseDoor()
     {
-        CrazyGamesBridge.GameplayStop();
+        CrazyGamesIntegration.GameplayStop();
         isDoorOpen = false;
         SetRidingState(false);
         PlayAudio(closeDoorSound);

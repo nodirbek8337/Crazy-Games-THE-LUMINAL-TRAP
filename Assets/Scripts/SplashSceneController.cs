@@ -21,6 +21,7 @@ public class SplashSceneController : MonoBehaviour
         yield return new WaitForSeconds(stayDuration);
 
         yield return StartCoroutine(FadeImage(1f, 0f, fadeDuration));
+        yield return StartCoroutine(CrazyGamesIntegration.EnsureInitialized());
 
         AsyncOperation asyncLoad = SceneManager.LoadSceneAsync("MainMenu");
 

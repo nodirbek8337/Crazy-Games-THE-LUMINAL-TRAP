@@ -3,8 +3,6 @@ using UnityEngine;
 
 public class ScreenFadeIntroActivator : MonoBehaviour
 {
-    private const float SceneStartAdSdkWaitTimeout = 5f;
-
     [Header("References")]
     public CanvasGroup canvasGroup;
     public GameObject targetObject;
@@ -47,7 +45,8 @@ public class ScreenFadeIntroActivator : MonoBehaviour
 
     private IEnumerator BeginIntroSequence()
     {
-        yield return StartCoroutine(ShowSceneStartAdAndWait());
+        // reklama: bu boshlanish qismi, shu sababli bu joyda ad qo'yilmaydi.
+        yield return null;
 
         PlayIntroSound();
         StartCoroutine(ActivateTargetAfterDelay());
@@ -73,15 +72,5 @@ public class ScreenFadeIntroActivator : MonoBehaviour
             yield return new WaitForSecondsRealtime(activationDelay);
 
         targetObject.SetActive(true);
-    }
-
-    private IEnumerator ShowSceneStartAdAndWait()
-    {
-        CrazyGamesAdService.RefreshSdkStatus();
-
-        if (!CrazyGamesAdService.IsSdkReady)
-            yield return StartCoroutine(CrazyGamesAdService.WaitForSdkReady(SceneStartAdSdkWaitTimeout));
-
-        yield return StartCoroutine(CrazyGamesAdService.ShowInterstitialAndWait(true, 0f));
     }
 }

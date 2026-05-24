@@ -5,14 +5,6 @@ using TMPro;
 using UnityEngine.SceneManagement;
 using UnityEngine.Localization.Settings;
 
-public static class AdSafetySettings
-{
-    public const float InterstitialOpenTimeout = 2f;
-    public const float InterstitialCloseTimeout = 30f;
-    public const float RewardedOpenTimeout = 2f;
-    public const float RewardedCloseTimeout = 40f;
-}
-
 public enum AnomalyHintKey
 {
     None = 0,
@@ -69,7 +61,6 @@ public class ElevatorController : MonoBehaviour
     private const float RideStartDelay = 3f;
     private const float RideDuration = 9f;
     private const float RespawnScreenHideDelay = 1f;
-    private const float InterstitialSdkWaitTimeout = 5f;
     private const int DefaultInterstitialEveryNFloors = 3;
 
     [Header("Anomaly")]
@@ -93,7 +84,7 @@ public class ElevatorController : MonoBehaviour
     public TextMeshPro scoreText;
     public TextMeshProUGUI anomalyHintText;
     private int score = 0;
-    private bool adsHintUsedThisFloor;
+    private bool hintUsedThisFloor;
     private bool recoveringFromRespawn = false;
     private int rideSequenceVersion = 0;
     private Coroutine screenFadeRoutine;
@@ -130,7 +121,7 @@ public class ElevatorController : MonoBehaviour
     public string FinalSceneName = "Final";
     [Min(1)]
     public int interstitialEveryNFloors = DefaultInterstitialEveryNFloors;
-    
+
     public GameObject lightObj;
     public AmbientColorChanger ambientColorChanger;
     [Header("Animator Parameters")]
@@ -139,9 +130,10 @@ public class ElevatorController : MonoBehaviour
 
     private void Start()
     {
+        StartCoroutine(CrazyGamesIntegration.EnsureInitialized());
         isBlockingEvents = true;
         score = 0;
-        adsHintUsedThisFloor = false;
+        hintUsedThisFloor = false;
         UpdateScoreUI();
         ScreenCanvasFader.SetHidden();
 
@@ -193,7 +185,7 @@ public class ElevatorController : MonoBehaviour
         return !isBlockingEvents && !isExternallyLocked && isDoorOpen;
     }
 
-    public bool CanUseAdsHint()
+    public bool CanUseHint()
     {
         return CanUseButtons() && score > 0;
     }
@@ -220,23 +212,23 @@ public class ElevatorController : MonoBehaviour
         return activeAnomaly.name;
     }
 
-    public bool TryUseAdsHintThisFloor()
+    public bool TryUseHintThisFloor()
     {
-        if (adsHintUsedThisFloor)
+        if (hintUsedThisFloor)
             return false;
 
-        adsHintUsedThisFloor = true;
+        hintUsedThisFloor = true;
         return true;
     }
 
-    public bool HasUsedAdsHintThisFloor()
+    public bool HasUsedHintThisFloor()
     {
-        return adsHintUsedThisFloor;
+        return hintUsedThisFloor;
     }
 
-    public void ResetAdsHintThisFloor()
+    public void ResetHintThisFloor()
     {
-        adsHintUsedThisFloor = false;
+        hintUsedThisFloor = false;
     }
 
     public void SetAnomalyHintText(string message)
@@ -323,7 +315,10 @@ public class ElevatorController : MonoBehaviour
         if (shouldOpenDoor)
         {
             if (RegisterFloorTransitionAndShouldShowInterstitial())
-                yield return StartCoroutine(ShowInterstitialAdAndWait());
+            {
+                // reklama
+                yield return StartCoroutine(CrazyGamesIntegration.ShowMidgameAdAndWait());
+            }
 
             yield return StartCoroutine(OpenDoorWithDingDongSequence());
         }
@@ -377,7 +372,7 @@ public class ElevatorController : MonoBehaviour
 
     private void CloseDoor()
     {
-        CrazyGamesBridge.GameplayStop();
+        CrazyGamesIntegration.GameplayStop();
         isDoorOpen = false;
         SetRidingState(false);
         PlayAudio(closeDoorSound);
@@ -398,7 +393,7 @@ public class ElevatorController : MonoBehaviour
     private IEnumerator OpenDoor()
     {
         isDoorOpen = true;
-        ResetAdsHintThisFloor();
+        ResetHintThisFloor();
         SetCameraDie(false);
         SetRidingState(false);
         PlayAudio(openDoorSound);
@@ -407,7 +402,7 @@ public class ElevatorController : MonoBehaviour
         if (elevatorDoorCollider != null) elevatorDoorCollider.SetActive(false);
         RefreshFloorNotes();
         isBlockingEvents = false;
-        CrazyGamesBridge.GameplayStart();
+        CrazyGamesIntegration.GameplayStart();
     }
 
     private void AddScore(int amount)
@@ -488,6 +483,7 @@ public class ElevatorController : MonoBehaviour
 
         if (score > lastFloorNumber)
         {
+            CrazyGamesIntegration.HappyTime();
             score = 0;
             UpdateScoreUI();
             activeAnomaly = null;
@@ -577,7 +573,8 @@ public class ElevatorController : MonoBehaviour
 
         SetCameraDie(true);
         yield return StartCoroutine(ScreenCanvasFader.FadeIn());
-        yield return StartCoroutine(ShowInterstitialAdAndWait());
+        // reklama
+        yield return StartCoroutine(CrazyGamesIntegration.ShowMidgameAdAndWait());
         yield return StartCoroutine(RespawnRoutine(delay, true));
     }
 
@@ -598,7 +595,8 @@ public class ElevatorController : MonoBehaviour
 
         SetCameraDie(true);
         yield return StartCoroutine(ScreenCanvasFader.FadeIn());
-        yield return StartCoroutine(ShowInterstitialAdAndWait());
+        // reklama
+        yield return StartCoroutine(CrazyGamesIntegration.ShowMidgameAdAndWait());
 
         if (deathDelay > 0f)
             yield return new WaitForSeconds(deathDelay);
@@ -643,7 +641,10 @@ public class ElevatorController : MonoBehaviour
             RefreshFloorNotes();
 
             if (RegisterFloorTransitionAndShouldShowInterstitial())
-                yield return StartCoroutine(ShowInterstitialAdAndWait());
+            {
+                // reklama
+                yield return StartCoroutine(CrazyGamesIntegration.ShowMidgameAdAndWait());
+            }
 
             yield return StartCoroutine(OpenDoorWithDingDongSequence());
         }
@@ -859,11 +860,6 @@ public class ElevatorController : MonoBehaviour
         screenFadeRoutine = null;
     }
 
-    private IEnumerator ShowInterstitialAdAndWait()
-    {
-        yield return StartCoroutine(CrazyGamesAdService.ShowInterstitialAndWait(true, InterstitialSdkWaitTimeout));
-    }
-
     private bool RegisterFloorTransitionAndShouldShowInterstitial()
     {
         if (interstitialEveryNFloors <= 0)
@@ -877,5 +873,4 @@ public class ElevatorController : MonoBehaviour
         floorsSinceLastInterstitial = 0;
         return true;
     }
-
 }
