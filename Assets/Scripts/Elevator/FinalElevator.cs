@@ -50,12 +50,12 @@ public class FinalElevator : MonoBehaviour, IGoActionReceiver
 
     private IEnumerator PlayFinalElevatorSequence()
     {
-        YGInterstitialService.RefreshSdkStatus();
+        CrazyGamesAdService.RefreshSdkStatus();
 
-        if (!YGInterstitialService.IsSdkReady)
-            yield return StartCoroutine(YGInterstitialService.WaitForSdkReady(SceneStartAdSdkWaitTimeout));
+        if (!CrazyGamesAdService.IsSdkReady)
+            yield return StartCoroutine(CrazyGamesAdService.WaitForSdkReady(SceneStartAdSdkWaitTimeout));
 
-        yield return StartCoroutine(YGInterstitialService.ShowInterstitialAndWait(true, 0f));
+        yield return StartCoroutine(CrazyGamesAdService.ShowInterstitialAndWait(true, 0f));
 
         if (rideDuration > 0f)
             yield return new WaitForSeconds(rideDuration);
@@ -103,6 +103,7 @@ public class FinalElevator : MonoBehaviour, IGoActionReceiver
         if (elevatorDoorCollider != null)
             elevatorDoorCollider.SetActive(false);
 
+        CrazyGamesBridge.GameplayStart();
         yield break;
     }
 
@@ -152,6 +153,7 @@ public class FinalElevator : MonoBehaviour, IGoActionReceiver
 
     private IEnumerator CloseDoorSequence()
     {
+        CrazyGamesBridge.GameplayStop();
         isClosingOrOpening = true;
         isDoorOpen = false;
         SetOpenState(false);
@@ -199,6 +201,7 @@ public class FinalElevator : MonoBehaviour, IGoActionReceiver
         if (elevatorDoorCollider != null)
             elevatorDoorCollider.SetActive(false);
 
+        CrazyGamesBridge.GameplayStart();
         yield return null;
         isClosingOrOpening = false;
     }

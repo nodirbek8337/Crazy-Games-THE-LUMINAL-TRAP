@@ -40,6 +40,7 @@ public class MainMenuLogic : MonoBehaviour
 
     void Start()
     {
+        CrazyGamesBridge.GameplayStop();
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
 
@@ -104,12 +105,12 @@ public class MainMenuLogic : MonoBehaviour
 
     private IEnumerator InitializeMainMenu()
     {
-        YGInterstitialService.RefreshSdkStatus();
+        CrazyGamesAdService.RefreshSdkStatus();
 
-        if (!YGInterstitialService.IsSdkReady)
-            yield return StartCoroutine(YGInterstitialService.WaitForSdkReady(sceneStartAdSdkWaitTimeout));
+        if (!CrazyGamesAdService.IsSdkReady)
+            yield return StartCoroutine(CrazyGamesAdService.WaitForSdkReady(sceneStartAdSdkWaitTimeout));
 
-        yield return StartCoroutine(YGInterstitialService.ShowInterstitialAndWait(true, 0f));
+        yield return StartCoroutine(CrazyGamesAdService.ShowInterstitialAndWait(true, 0f));
         CompleteMainMenuInitialization();
     }
 

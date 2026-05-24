@@ -50,12 +50,12 @@ public class PrologueElevator : MonoBehaviour, IGoActionReceiver
 
     private IEnumerator PlaySceneStartSequence()
     {
-        YGInterstitialService.RefreshSdkStatus();
+        CrazyGamesAdService.RefreshSdkStatus();
 
-        if (!YGInterstitialService.IsSdkReady)
-            yield return StartCoroutine(YGInterstitialService.WaitForSdkReady(SceneStartAdSdkWaitTimeout));
+        if (!CrazyGamesAdService.IsSdkReady)
+            yield return StartCoroutine(CrazyGamesAdService.WaitForSdkReady(SceneStartAdSdkWaitTimeout));
 
-        yield return StartCoroutine(YGInterstitialService.ShowInterstitialAndWait(true, 0f));
+        yield return StartCoroutine(CrazyGamesAdService.ShowInterstitialAndWait(true, 0f));
         yield return StartCoroutine(OpenDoor());
     }
 
@@ -159,6 +159,7 @@ public class PrologueElevator : MonoBehaviour, IGoActionReceiver
             elevatorDoorCollider.SetActive(false);
 
         isBlockingEvents = false;
+        CrazyGamesBridge.GameplayStart();
     }
 
     public void OpenDoorSecondDialogue()
@@ -186,6 +187,7 @@ public class PrologueElevator : MonoBehaviour, IGoActionReceiver
 
     private void CloseDoor()
     {
+        CrazyGamesBridge.GameplayStop();
         isDoorOpen = false;
         SetRidingState(false);
         PlayAudio(closeDoorSound);

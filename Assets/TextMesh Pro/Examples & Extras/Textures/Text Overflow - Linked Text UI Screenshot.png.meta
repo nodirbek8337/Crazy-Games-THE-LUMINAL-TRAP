@@ -36,7 +36,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   rGBM: 0
-  compressionQuality: 50
+  compressionQuality: 30
   allowsAlphaSplitting: 0
   spriteMode: 0
   spriteExtrude: 1
@@ -57,3 +57,4 @@ TextureImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+

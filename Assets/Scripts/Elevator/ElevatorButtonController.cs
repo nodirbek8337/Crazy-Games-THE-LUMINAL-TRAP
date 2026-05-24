@@ -233,10 +233,11 @@ public class ElevatorButtonController : MonoBehaviour
         }
 
         isProcessingAdsHint = true;
-        yield return StartCoroutine(YGInterstitialService.ShowInterstitialAndWait(true, 5f));
+        bool rewardGranted = false;
+        yield return StartCoroutine(CrazyGamesAdService.ShowRewardedAndWait(result => rewardGranted = result, 5f));
         isProcessingAdsHint = false;
 
-        if (elevatorController == null)
+        if (!rewardGranted || elevatorController == null)
         {
             ShowTemporaryAnswer(InteractionPromptLocalization.GetLocalizedString(LocalizationTableName, RewardedUnavailableKey));
             RestoreAdsPromptIfPossible();

@@ -377,6 +377,7 @@ public class ElevatorController : MonoBehaviour
 
     private void CloseDoor()
     {
+        CrazyGamesBridge.GameplayStop();
         isDoorOpen = false;
         SetRidingState(false);
         PlayAudio(closeDoorSound);
@@ -406,6 +407,7 @@ public class ElevatorController : MonoBehaviour
         if (elevatorDoorCollider != null) elevatorDoorCollider.SetActive(false);
         RefreshFloorNotes();
         isBlockingEvents = false;
+        CrazyGamesBridge.GameplayStart();
     }
 
     private void AddScore(int amount)
@@ -859,7 +861,7 @@ public class ElevatorController : MonoBehaviour
 
     private IEnumerator ShowInterstitialAdAndWait()
     {
-        yield return StartCoroutine(YGInterstitialService.ShowInterstitialAndWait(true, InterstitialSdkWaitTimeout));
+        yield return StartCoroutine(CrazyGamesAdService.ShowInterstitialAndWait(true, InterstitialSdkWaitTimeout));
     }
 
     private bool RegisterFloorTransitionAndShouldShowInterstitial()
