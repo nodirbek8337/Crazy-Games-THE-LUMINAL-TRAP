@@ -1,0 +1,19 @@
+{
+    "stringPrefs": [
+        {
+            "key": "SelectModuleToggle_YG2",
+            "value": "PluginYG2;YandexGames;InterstitialAdv;Localization;AutoTranslateLangs;StickyAdv;RewardedAdv"
+        }
+    ],
+    "intPrefs": [
+        {
+            "key": "FirstStartup_YG2",
+            "value": 2
+        },
+        {
+            "key": "NotificationUpdate_YG2",
+            "value": 1
+        }
+    ],
+    "floatPrefs": []
+}

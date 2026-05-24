@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: AnomalyHints_tr
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: tr
+  m_SharedData: {fileID: 11400000, guid: c34e31861ecb4782ab0934cc2b9af179, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 2000000000001
+    m_Localized: "Anomali yok"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2000000000018
+    m_Localized: "Anomali: Kattaki havalandırma deliklerinin sayısı artmış. Daha önce bu kadar fazla olmadıklarını açıkça hatırlıyorsunuz."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2000000000019
+    m_Localized: "Anomali: Kat boyunca bilinmeyen bir müzik yankılanıyor. Belki de bazen durup onu dinleyerek rahatlamak gerekir."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2000000000020
+    m_Localized: "Anomali: Tüm bina yoğun bir dumanla kaplanmış. Belki de sigaranın sonucu tam olarak budur."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2000000000002
+    m_Localized: "Anomali: Katınızda daha önce var olmayan ek bir koridor ortaya çıktı. Bu alan binanın orijinal yapısıyla uyuşmuyor."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2000000000003
+    m_Localized: "Anomali: Kattaki tabloların yerleşimi değişmiş. Daha önce farklı durduklarını hatırlıyorsunuz."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2000000000004
+    m_Localized: "Anomali: Katınızdaki tüm kapılar kaybolmuş. Burası artık eskisi gibi görünmüyor."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2000000000005
+    m_Localized: "Anomali: Koridorun sonunda daha önce burada olmayan çöp torbaları ortaya çıkmış."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2000000000006
+    m_Localized: "Anomali: Koridorlardan birinde garip bir duvar ortaya çıkmış ve geçiş alanını daraltmış."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2000000000007
+    m_Localized: "Anomali: Koridorun sonundaki karanlıkta bilinmeyen bir yaratık sizi bekliyor. Ona yaklaşmanız tavsiye edilmez."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2000000000008
+    m_Localized: "Anomali: Kapının arkasından gelen vurma sesine güvenmeyin. Onu açanları yalnızca ölüm bekliyordu."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2000000000009
+    m_Localized: "Anomali: Katın içinde garip bir bulut ortaya çıkmış. Bazen içinden şimşek çaktığı görülüyor."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2000000000010
+    m_Localized: "Anomali: Kattaki ışıklar garip bir şekilde kırmızı renge dönüşüyor. Bu olayın nedeni bilinmiyor."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2000000000011
+    m_Localized: "Anomali: Dün gece kattaki kapılardan biri garip şekilde hareket ediyordu. Ona yaklaşan kişi kapının aniden patlaması sonucu hayatını kaybetti."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2000000000012
+    m_Localized: "Anomali: Katta alışılmadık yerlerde çöp torbaları belirdi."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2000000000013
+    m_Localized: "Anomali: Havalandırma sisteminde bir arıza oluşmuş. İçinden elektrik kıvılcımları çıkıyor."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2000000000014
+    m_Localized: "Anomali: Kapı garip bir şekilde konumunu değiştirip 90 derece dönmüş. Bunun nedeni bilinmiyor."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2000000000015
+    m_Localized: "Anomali: Asansörün önünde daha önce burada olmayan çöp torbaları ortaya çıkmış."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2000000000016
+    m_Localized: "Anomali: Havada sürekli dolaşan küçük toz parçacıkları aniden kaybolmuş."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2000000000017
+    m_Localized: "Anomali: Kattaki tüm ışıklar sönmüş. Belki de elektrik faturasını ödemen gerekiyordu."
+    m_Metadata:
+      m_Items: []

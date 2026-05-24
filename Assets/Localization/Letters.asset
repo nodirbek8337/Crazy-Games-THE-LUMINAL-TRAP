@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5be51871efa6c3e4eae1703925c8f5ac, type: 3}
+  m_Name: Letters
+  m_EditorClassIdentifier: 
+  m_SharedTableData: {fileID: 11400000, guid: 5f809af1881443b98088bbca1f90f563, type: 2}
+  m_Tables:
+  - {fileID: 11400000, guid: e9cce7fde58d44a5accb772a84ce7139, type: 2}
+  - {fileID: 11400000, guid: c140f03e91db4975b3cd2eaa04e9d163, type: 2}
+  - {fileID: 11400000, guid: d5a78b63e5394740b9eab7c717cb8944, type: 2}
+  - {fileID: 11400000, guid: 38530e69461e47eb88ca9df7a52e60c5, type: 2}
+  m_Extensions: []
+  m_Group: String Table
+  references:
+    version: 2
+    RefIds: []

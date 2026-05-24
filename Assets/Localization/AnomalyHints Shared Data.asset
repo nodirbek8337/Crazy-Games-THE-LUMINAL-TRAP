@@ -1,0 +1,108 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: AnomalyHints Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: AnomalyHints
+  m_TableCollectionNameGuidString: c34e31861ecb4782ab0934cc2b9af179
+  m_Entries:
+  - m_Id: 2000000000001
+    m_Key: ANOMALY_NONE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2000000000002
+    m_Key: ANOMALY_CORRIDOR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2000000000003
+    m_Key: ANOMALY_PICTURE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2000000000004
+    m_Key: ANOMALY_DOORS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2000000000005
+    m_Key: ANOMALY_GARBAGES
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2000000000006
+    m_Key: ANOMALY_DOOR_WALL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2000000000007
+    m_Key: ANOMALY_DEMON_MONSTER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2000000000008
+    m_Key: ANOMALY_DOOR_MAN_SCREAM
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2000000000009
+    m_Key: ANOMALY_STORM_DIE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2000000000010
+    m_Key: ANOMALY_LIGHT_COLOR_SWITCH
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2000000000011
+    m_Key: ANOMALY_BOOM_DOOR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2000000000012
+    m_Key: ANOMALY_TRASH_BAGS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2000000000013
+    m_Key: ANOMALY_VENT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2000000000014
+    m_Key: ANOMALY_DOOR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2000000000015
+    m_Key: ANOMALY_TRASH_BAGS_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2000000000016
+    m_Key: ANOMALY_ATMOSPHERE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2000000000017
+    m_Key: ANOMALY_LIGHTS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2000000000018
+    m_Key: ANOMALY_VENTS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2000000000019
+    m_Key: ANOMALY_DANCE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2000000000020
+    m_Key: ANOMALY_SMOKE_DOOR
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 7483036835666984969
+  references:
+    version: 2
+    RefIds:
+    - rid: 7483036835666984969
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1779007421629

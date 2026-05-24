@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Letters_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 5f809af1881443b98088bbca1f90f563, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 1000000000001
+    m_Localized: "If you are reading this note, it means the elevator brought you
+      here too. My name is Xayrulla. I had been searching for this place for a long
+      time. I collected information about missing people, nonexistent floors, and
+      strange elevator incidents. At first, I thought all of this was just a myth.
+      But it turns out they are actually real. This place is not normal. The floors
+      change. The rooms are not always the same either. Sometimes very small changes
+      appear. So always pay close attention to your surroundings. If you see something
+      unusual, go down. If everything looks normal, keep going up. Maybe this path
+      can lead you out of this place. And remember one more thing... There are creatures
+      in this place. They feed on your fear. So always hide your fear and never get
+      close to them. I saw them once. Ever since then, they have been following me
+      without stopping. It always feels like someone is right behind me. Sometimes
+      they whisper into my ear: \"You cannot leave.\" \"You will stay with us.\"
+      \"You will become my toy just like the others.\" If you find any of my other
+      notes, make sure to read them. I am leaving behind everything I have learned.
+      Maybe it will help both of us. — Xayrulla"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000002
+    m_Localized: "If you found this note, then you are still alive. I’m trying
+      to understand some things about this place. This place watches you. Pay close
+      attention while walking through the corridors. Sometimes things appear that
+      were not there before. Sometimes things disappear. Pay special attention to
+      the doors. If a place feels wrong, do not stay there for too long. And remember
+      one more thing... If you see something in the distance that looks like a motionless
+      person, do not stare at it for too long. Especially if it is watching you.
+      I think they do not move while you are looking at them. But the moment you
+      look away, they change their position. Yesterday I saw one of them near the
+      elevator. As the elevator doors were closing, I realized it had no face. Since
+      then, it sometimes feels like someone is standing behind me. Sometimes I can
+      hear breathing near my ear. If I do not leave any more notes... then maybe
+      they found me. — Xayrulla"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000003
+    m_Localized: "This is my third note. I don’t know if you will find it or
+      not. I’m so tired. I made it to the 8th floor. But they tricked me. And
+      now I’m back on the 1st floor again. I no longer understand the rules
+      of this place. Sometimes the corridors feel like they are stretching endlessly.
+      Sometimes when the elevator doors open, there is nothing inside. I’m starting
+      to see things. Sometimes I see someone standing far away. But when I look again,
+      nobody is there. Something is watching me. I can feel it. Even my legs no longer
+      obey me. I try to stop walking, but I still keep going up. I’m scared.
+      I regret everything. Why did I come here? Why did I search for all this? Did
+      I really need this? What am I even doing? I... I... who am I anymore? Why am
+      I here? Please... help me... please..."
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

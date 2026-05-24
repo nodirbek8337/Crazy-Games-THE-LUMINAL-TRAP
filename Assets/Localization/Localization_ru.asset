@@ -1,0 +1,279 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Localization_ru
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: ru
+  m_SharedData: {fileID: 11400000, guid: 5df4c3b3a21bb374dbb17f20843c7bb7, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 1000000000001
+    m_Localized: "Начать игру"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000002
+    m_Localized: "Настройки"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000003
+    m_Localized: "Авторы"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000004
+    m_Localized: "Выход"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000005
+    m_Localized: "Продолжить"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000006
+    m_Localized: "Главное меню"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000007
+    m_Localized: "Громкость"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000008
+    m_Localized: "Чувствительность мыши"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000009
+    m_Localized: "Полный экран"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000010
+    m_Localized: "Оконный режим"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000011
+    m_Localized: "Назад"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000012
+    m_Localized: "Загрузка"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000064
+    m_Localized: "Беги"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000061
+    m_Localized: "Связаться с нами"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000062
+    m_Localized: "YouTube"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000063
+    m_Localized: "Telegram"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000050
+    m_Localized: "Узбекский"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000051
+    m_Localized: "Русский"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000052
+    m_Localized: "Английский"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000053
+    m_Localized: "Турецкий"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000054
+    m_Localized: "E"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000055
+    m_Localized: "...Я выбрался?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000056
+    m_Localized: "Это место... закончилось?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000057
+    m_Localized: "Почему моё сердце всё ещё боится...?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000058
+    m_Localized: "...Тогда почему я всё ещё слышу их голоса?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000059
+    m_Localized: "Вернись..."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000060
+    m_Localized: "Xayrulla... тебе удалось выбраться...?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000065
+    m_Localized: "— Последние новости — Сегодня утром в лифте одного из старых жилых домов города был найден мёртвым 27-летний мужчина по имени Хайрулла. По словам соседей, он около недели не выходил из своей квартиры. Однако во время расследования в его квартире почти не было найдено следов того, что он действительно жил там всё это время. Специалисты до сих пор пытаются ответить на один вопрос: действительно ли Хайрулла провёл неделю у себя дома или всё это время блуждал в неизвестном месте, которое люди называют «Luminal Trap»? Самое пугающее — это не первый подобный случай. За последние месяцы количество загадочных происшествий, связанных с лифтами, резко увеличилось. По словам свидетелей, перед происшествием жертвы начинали разговаривать сами с собой и утверждали, что получают письма от неизвестных людей. Полиция до сих пор не может дать официального объяснения этим событиям. Однако среди пользователей интернета всё чаще распространяется одно название — «Luminal Trap». Одни считают это психическим расстройством, другие говорят, что человек, попавший туда, постепенно теряет связь с реальностью. И самое странное — в конце всех найденных писем были написаны имена самих жертв."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000021
+    m_Localized: "Я снова не смог нормально уснуть..."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000022
+    m_Localized: "Наверное, потому что я уже неделю не выходил из квартиры."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000023
+    m_Localized: "Может, небольшая прогулка поможет прийти в себя."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000024
+    m_Localized: "Что-то не так..."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000025
+    m_Localized: "Голова какая-то странная."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000026
+    m_Localized: "$2d#... Это что, номер этажа?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000027
+    m_Localized: "Я неделю не выходил из дома, и теперь ещё и лифт с ума сошёл?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000028
+    m_Localized: "Ладно... будь что будет."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000029
+    m_Localized: "Что происходит?!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000030
+    m_Localized: "Стой... СТОЙ!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000031
+    m_Localized: "Я СКАЗАЛ СТОЙ!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000032
+    m_Localized: "Какого чёрта происходит?!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000033
+    m_Localized: "ЕДА"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000034
+    m_Localized: "ОБЕРНИСЬ"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000035
+    m_Localized: "ЛОЖЬ"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000036
+    m_Localized: "СОЖАЛЕНИЕ"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000037
+    m_Localized: "ОНИ ВСЕГДА НАБЛЮДАЛИ ЗА ТОБОЙ"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000038
+    m_Localized: "НЕ СПУСКАЙСЯ"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000039
+    m_Localized: "СКРОЙ СВОЙ СТРАХ"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000040
+    m_Localized: "...Где я?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000041
+    m_Localized: "Что со мной случилось..."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000042
+    m_Localized: "Всё из-за этих чёртовых помидоров."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000043
+    m_Localized: "Я же чувствовал, что они испорчены... не надо было их есть."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000044
+    m_Localized: "Подожди... это ещё что?!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000045
+    m_Localized: "Они и лифт испортили."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000046
+    m_Localized: "Почему ты теперь показываешь 0 этаж?!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000047
+    m_Localized: "Мне нужно поскорее выбраться отсюда."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000048
+    m_Localized: "ТЫ"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000049
+    m_Localized: "Xayrulla"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000066
+    m_Localized: "E / Определить аномалию через рекламу"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000067
+    m_Localized: "Вы не досмотрели рекламу до конца."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000068
+    m_Localized: "Реклама с наградой недоступна."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000069
+    m_Localized: "Определить аномалию"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000070
+    m_Localized: ""
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000071
+    m_Localized: "Q - Пропустить"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000072
+    m_Localized: "Реклама загружается..."
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

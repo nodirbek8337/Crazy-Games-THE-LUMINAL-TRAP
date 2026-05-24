@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: AnomalyHints_uz
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: uz
+  m_SharedData: {fileID: 11400000, guid: c34e31861ecb4782ab0934cc2b9af179, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 2000000000001
+    m_Localized: "Anamaliya yo'q"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2000000000002
+    m_Localized: "Anamaliya: Sizning qavatingizda ilgari mavjud bo'lmagan qo'shimcha yo'lak paydo bo'ldi. Bu joy binoning asl tuzilishiga mos kelmaydi."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2000000000003
+    m_Localized: "Anamaliya: Qavatdagi rasmlarning joylashuvi o'zgarib qolgan. Siz buni oldin boshqacha ekanligini eslaysiz."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2000000000004
+    m_Localized: "Anamaliya: Sizning qavatingizdagi barcha eshiklar yo'qolib qolgan. Bu joy endi avvalgidek ko'rinmayapti."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2000000000005
+    m_Localized: "Anamaliya: Yo'lak oxirida ilgari bo'lmagan axlat paketlari paydo bo'lgan."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2000000000006
+    m_Localized: "Anamaliya: Yo'laklardan birida g'ayritabiiy devor paydo bo'lgan va o'tish joyini toraytirib yuborgan."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2000000000007
+    m_Localized: "Anamaliya: Yo'lak oxiridagi qorong'ulik ichida noma'lum mavjudot sizni kuzatmoqda. Unga yaqinlashish tavsiya etilmaydi."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2000000000008
+    m_Localized: "Anamaliya: Eshik ortidan eshitilgan taqillatish ovoziga ishonmang. Uni ochganlarni faqat o'lim kutgan."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2000000000009
+    m_Localized: "Anamaliya: Qavat ichida g'alati bulut paydo bo'lgan. Ba'zida undan chaqmoq urayotgani kuzatiladi."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2000000000010
+    m_Localized: "Anamaliya: Qavatdagi chiroqlar g'alati tarzda qizil rangga o'zgarib qolmoqda. Bu hodisaning sababi noma'lum."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2000000000011
+    m_Localized: "Anamaliya: Kecha qavatdagi eshiklardan biri g'alati tarzda qimirlab turgan. Unga yaqinlashgan inson esa eshik portlashi oqibatida halok bo'lgan."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2000000000012
+    m_Localized: "Anamaliya: Qavatda noodatiy joylarda axlat paketlari paydo bo'lgan."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2000000000013
+    m_Localized: "Anamaliya: Ventilyatsiya tizimida nosozlik yuzaga kelgan. Undan elektr uchqunlari sachrayapti."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2000000000014
+    m_Localized: "Anamaliya: Eshik g'alati tarzda o'z holatini o'zgartirib, 90 gradusga burilib qolgan. Buning sababi noma'lum."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2000000000015
+    m_Localized: "Anamaliya: Lift oldida ilgari mavjud bo'lmagan axlat paketlari paydo bo'lgan."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2000000000016
+    m_Localized: "Anamaliya: Havoda doim suzib yuradigan mayda chang zarrachalari birdan yo'qolib qolgan."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2000000000017
+    m_Localized: "Anamaliya: Qavatdagi barcha chiroqlar o'chib qolgan. Balki elektr uchun pul to'lash kerakdir."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2000000000018
+    m_Localized: "Anamaliya: Qavatda ventilyatsiya teshiklari soni ko'payib qolgan. Siz ularning oldin bunchalik ko'p bo'lmaganini aniq eslaysiz."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2000000000019
+    m_Localized: "Anamaliya: Qavat ichida noma'lum musiqa yangramoqda. Balki ba'zida to'xtab, uni tinglab dam olish kerakdir."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2000000000020
+    m_Localized: "Anamaliya: Butun uy quyuq tutun bilan qoplangan. Balki chekishning oqibati aynan shudir."
+    m_Metadata:
+      m_Items: []

@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Letters_uz
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: uz
+  m_SharedData: {fileID: 11400000, guid: 5f809af1881443b98088bbca1f90f563, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 1000000000001
+    m_Localized: "Agar sen bu yozuvni o‘qiyotgan bo‘lsang, demak lift seni
+      ham shu yerga olib kelibdi. Mening ismim Xayrulla. Men bu joyni ancha vaqtdan
+      beri izlab yurgandim. Yo‘qolib ketgan odamlar, mavjud bo‘lmagan qavatlar
+      va g‘alati lift hodisalari haqida ma’lumot yig‘ardim. Boshida
+      bularning hammasini oddiy uydirma deb o‘ylagandim. Lekin ular haqiqatdan
+      ham bor ekan. Bu joy oddiy emas. Qavatlar o‘zgaradi. Xonalar ham har safar
+      bir xil bo‘lavermaydi. Ba’zan juda kichik o‘zgarishlar paydo
+      bo‘ladi. Shuning uchun atrofga doim diqqat bilan qara. Agar noodatiy narsa
+      ko‘rsang, pastga tush. Agar hammasi odatdagidek bo‘lsa, tepaga chiqishda
+      davom et. Balki shu yo‘l seni bu yerdan olib chiqishi mumkin. Yana bir
+      narsani esingda saqla... Bu yerda qandaydir maxluqlar bor. Ular seni qo‘rquving
+      bilan oziqlanadi. Shuning uchun doim qo‘rquvingni yashir va ularga umuman
+      yaqinlashma. Men ularni bir marta ko‘rgandim. O‘shandan beri ular
+      meni tinmasdan taqib qilishyapti. Go‘yoki doim ortimda kimdir yurayotgandek.
+      Ba’zan qulog‘imga pichirlashadi: \"Sen keta olmaysan.\" \"Sen biz
+      bilan qolasan.\" \"Sen ham boshqalar kabi mening o‘yinchog‘imga aylanasan.\"
+      Agar boshqa yozuvlarimni topsang, albatta o‘qib chiq. Men topgan narsalarni
+      yozib qoldiryapman. Balki bu ikkovimizga ham yordam berar. — Xayrulla"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000002
+    m_Localized: "Agar sen bu yozuvni topgan bo‘lsang, demak hali ham tiriksan.
+      Men bu joydagi ba’zi narsalarni tushunishga harakat qilyapman. Bu yer
+      seni kuzatadi. Koridorlarga diqqat bilan qarab yur. Ba’zan oldin yo‘q
+      narsa paydo bo‘lib qoladi. Ba’zan esa bor narsalar yo‘qoladi.
+      Eshiklarga ayniqsa e’tibor ber. Agar biror joy noto‘g‘ri tuyulsa,
+      u yerda uzoq qolma. Yana bir narsani esingda saqla... Agar uzoqda qimirlamay
+      turgan odamga o‘xshash narsani ko‘rsang, unga tikilib turma. Ayniqsa
+      u seni kuzatayotgan bo‘lsa. Menimcha ular sen qarab turganingda qimirlamaydi.
+      Lekin sen ko‘zingni uzganingda joyini o‘zgartiradi. Kecha ulardan
+      birini lift oldida ko‘rdim. Lift yopilayotganida esa uning yuzi yo‘qligini
+      sezdim. Shundan beri ba’zan orqamda kimdir turgandek tuyuladi. Ba’zan
+      esa qulog‘im yonida nafas ovozi eshitiladi. Agar men boshqa yozuvlar qoldirmasam...
+      demak ular meni topgan bo‘lishi mumkin. — Xayrulla"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000003
+    m_Localized: "Bu mening uchinchi xatim. Uni topa olasanmi yo‘qmi bilmayman.
+      Men judayam charchadim. Men 8-qavatgacha chiqqandim. Lekin ular meni aldashdi.
+      Hozir esa yana 1-qavatdaman. Men endi bu joyning qoidalarini tushunmayapman.
+      Ba’zan koridorlar cho‘zilib ketayotgandek tuyuladi. Ba’zan esa
+      lift eshiklari ochilganda ichida hech narsa bo‘lmaydi. Ko‘zlarimga
+      har xil narsalar ko‘rina boshladi. Ba’zan uzoqda kimdir turadi. Men
+      qaraganimda esa yo‘q bo‘lib qoladi. Nimadir meni kuzatyapti. Men
+      buni his qilyapman. Oyoqlarim ham o‘zimga bo‘ysunmayapti. Men yurishni
+      to‘xtatmoqchi bo‘laman, lekin baribir tepaga chiqishda davom etaman.
+      Men qo‘rqayapman. Men pushaymondaman. Nima uchun bu yerga keldim? Nima
+      uchun bularni izladim? Shu menga kerakmidi? Men nima qilyapman? Men... men...
+      men kimman o‘zi? Nega bu yerdaman? Iltimos... menga yordam beringlar...
+      iltimos..."
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

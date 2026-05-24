@@ -1,0 +1,279 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Localization_tr
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: tr
+  m_SharedData: {fileID: 11400000, guid: 5df4c3b3a21bb374dbb17f20843c7bb7, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 1000000000001
+    m_Localized: "Oyunu Başlat"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000002
+    m_Localized: "Ayarlar"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000003
+    m_Localized: "Krediler"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000004
+    m_Localized: "Çıkış"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000005
+    m_Localized: "Devam Et"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000006
+    m_Localized: "Ana Menü"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000007
+    m_Localized: "Ses"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000008
+    m_Localized: "Fare Hassasiyeti"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000009
+    m_Localized: "Tam Ekran"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000010
+    m_Localized: "Pencere Modu"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000011
+    m_Localized: "Geri"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000012
+    m_Localized: "Yükleniyor"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000064
+    m_Localized: "Kaç"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000061
+    m_Localized: "Bizimle İletişime Geçin"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000062
+    m_Localized: "YouTube"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000063
+    m_Localized: "Telegram"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000050
+    m_Localized: "Özbekçe"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000051
+    m_Localized: "Rusça"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000052
+    m_Localized: "İngilizce"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000053
+    m_Localized: "Türkçe"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000054
+    m_Localized: "E"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000055
+    m_Localized: "...Çıkabildim mi?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000056
+    m_Localized: "Bu yer... bitti mi?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000057
+    m_Localized: "Neden hâlâ korkuyorum...?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000058
+    m_Localized: "...O zaman neden hâlâ onların seslerini duyuyorum?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000059
+    m_Localized: "Geri dön..."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000060
+    m_Localized: "Xayrulla... çıkabildin mi...?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000065
+    m_Localized: "— Son Haberler — Bu sabah şehirdeki eski apartmanlardan birinin asansöründe 27 yaşındaki Hayrulla isimli bir adam ölü bulundu. Komşularının söylediklerine göre yaklaşık bir haftadır evinden çıkmamıştı. Ancak soruşturma sırasında dairesinde bu süre boyunca gerçekten orada yaşadığına dair neredeyse hiçbir iz bulunamadı. Uzmanlar hâlâ aynı sorunun cevabını arıyor: Hayrulla gerçekten bir hafta boyunca evinde miydi, yoksa insanların “Luminal Trap” dediği bilinmeyen bir yerde mi kaybolmuştu? En korkutucu olan ise bunun ilk olay olmaması. Son aylarda asansörlerle bağlantılı gizemli olayların sayısı hızla artıyor. Tanıkların söylediklerine göre olaylardan önce kurbanlar kendi kendilerine konuşmaya başlıyor ve bilinmeyen kişilerden mektuplar aldıklarını söylüyorlardı. Polis hâlâ bu olaylarla ilgili resmî bir açıklama yapabilmiş değil. Ancak internet kullanıcıları arasında tek bir isim giderek daha fazla yayılıyor — “Luminal Trap”. Bazıları bunun psikolojik bir hastalık olduğunu düşünürken, bazıları ise oraya giren insanların yavaş yavaş gerçeklik duygusunu kaybettiğini söylüyor. Ve en garip kısmı ise bulunan tüm mektupların sonunda kurbanların kendi isimleri yazıyordu."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000021
+    m_Localized: "Bugün yine düzgün uyuyamadım..."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000022
+    m_Localized: "Sanırım bir haftadır evden çıkmadığım için."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000023
+    m_Localized: "Biraz dolaşırsam belki kendime gelirim."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000024
+    m_Localized: "Bir şeyler yanlış..."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000025
+    m_Localized: "Başım tuhaf hissettiriyor."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000026
+    m_Localized: "$2d#... bu da ne, kat mı?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000027
+    m_Localized: "Bir haftadır evden çıkmıyorum diye asansör de mi kafayı yedi?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000028
+    m_Localized: "Neyse... ne olacaksa olsun."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000029
+    m_Localized: "Ne oluyor?!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000030
+    m_Localized: "Dur... DUR!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000031
+    m_Localized: "DUR DEDİM!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000032
+    m_Localized: "Neler oluyor böyle?!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000033
+    m_Localized: "YEMEK"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000034
+    m_Localized: "ARKANA DÖN"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000035
+    m_Localized: "YALAN"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000036
+    m_Localized: "PİŞMANLIK"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000037
+    m_Localized: "SENİ HEP İZLİYORLARDI"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000038
+    m_Localized: "AŞAĞI İNME"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000039
+    m_Localized: "KORKUNU GİZLE"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000040
+    m_Localized: "...Ben neredeyim?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000041
+    m_Localized: "Bana ne oldu..."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000042
+    m_Localized: "Her şey o lanet domatesler yüzünden oldu."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000043
+    m_Localized: "Bozuk olduklarını hissetmiştim... yememeliydim."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000044
+    m_Localized: "Bekle... bu da ne?!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000045
+    m_Localized: "Asansörü de bozmuşlar."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000046
+    m_Localized: "Neden şimdi 0. katı gösteriyorsun?!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000047
+    m_Localized: "Buradan hemen çıkmam lazım."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000048
+    m_Localized: "SEN"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000049
+    m_Localized: "Xayrulla"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000066
+    m_Localized: "E / Reklamayla anomaliyi belirle"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000067
+    m_Localized: "Reklamayı sonuna kadar izlemediniz."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000068
+    m_Localized: "Odullu reklam mevcut degil."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000069
+    m_Localized: "Anomaliyi belirle"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000070
+    m_Localized: ""
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000071
+    m_Localized: "Q - Atla"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000072
+    m_Localized: "Reklam yukleniyor..."
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

@@ -1,0 +1,279 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Localization_uz
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: uz
+  m_SharedData: {fileID: 11400000, guid: 5df4c3b3a21bb374dbb17f20843c7bb7, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 1000000000001
+    m_Localized: "Boshlash"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000002
+    m_Localized: "Sozlamalar"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000003
+    m_Localized: "Mualliflar"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000004
+    m_Localized: "Chiqish"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000005
+    m_Localized: "Davom etish"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000006
+    m_Localized: "Asosiy menyu"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000007
+    m_Localized: "Ovozni sozlash"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000008
+    m_Localized: "Sichqoncha harakati"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000009
+    m_Localized: "To'liq ekran"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000010
+    m_Localized: "Oyna rejimi"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000011
+    m_Localized: "Ortga"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000012
+    m_Localized: "Yuklanmoqda"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000064
+    m_Localized: "Qoch"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000061
+    m_Localized: "Biz bilan aloqa"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000062
+    m_Localized: "YouTube"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000063
+    m_Localized: "Telegram"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000050
+    m_Localized: "O'zbek"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000051
+    m_Localized: "Ruscha"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000052
+    m_Localized: "Inglizcha"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000053
+    m_Localized: "Turkcha"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000054
+    m_Localized: "E"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000055
+    m_Localized: "...Men chiqib ketdimmi?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000056
+    m_Localized: "Bu joy... tugadimi?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000057
+    m_Localized: "Nega hali ham yuragim qo'rqyapti...?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000058
+    m_Localized: "...Unda nega hali ham ularning ovozlarini eshityapman?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000059
+    m_Localized: "Qayt..."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000060
+    m_Localized: "Xayrulla... sen chiqa oldingmi...?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000065
+    m_Localized: "— So‘nggi yangiliklar — Bugun tongda shahardagi eski turar joy binolaridan birining liftida 27 yoshli Xayrulla ismli erkak o‘lik holda topildi. Qo‘shnilarining aytishicha, u taxminan bir hafta davomida uyidan chiqmagan. Ammo tergov davomida uning kvartirasida yashaganiga oid deyarli hech qanday iz topilmadi. Mutaxassislar hali ham bir savol ustida bosh qotirmoqda: Xayrulla haqiqatan ham bir hafta davomida uyida bo‘lganmi yoki shu vaqt ichida odamlar “Luminal Trap” deb atayotgan noma’lum joyda adashib yurganmi? Eng qo‘rqinchlisi esa bu birinchi holat emas. So‘nggi oylar ichida liftlar bilan bog‘liq sirli hodisalar soni keskin oshib bormoqda. Guvohlarning aytishicha, hodisalardan oldin jabrlanuvchilar o‘zlari bilan gaplashishni boshlashgan va noma’lum odamlardan xatlar olayotganini aytishgan. Politsiya bu hodisalarga hali ham rasmiy izoh bera olmagan. Ammo internet foydalanuvchilari orasida bitta nom tobora ko‘proq tarqalmoqda — “Luminal Trap”. Ba’zilar buni ruhiy kasallik desa, boshqalar bu joyga kirgan odam asta-sekin haqiqatni yo‘qota boshlashini aytmoqda. Va eng g‘alati tomoni — topilgan barcha xatlarning oxirida qurbonlarning o‘z ismlari yozilgan edi."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000021
+    m_Localized: "Bugun ham tinch uxlay olmadim..."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000022
+    m_Localized: "Balki bir haftadan beri uyimdan chiqmaganim uchundir."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000023
+    m_Localized: "Bir aylanib kelsam, o'zimga kelib qolarman."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000024
+    m_Localized: "Nimadir noto'g'ri..."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000025
+    m_Localized: "Boshim g'alati bo'lyapti."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000026
+    m_Localized: "$2d#... nima bu, qavatmi?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000027
+    m_Localized: "Bir haftadan beri uyimdan chiqmaganim yetmaganday, endi lift ham aqldan ozdimi?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000028
+    m_Localized: "Mayli... nima bo'lsa ham."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000029
+    m_Localized: "Nima bo'lyapti?!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000030
+    m_Localized: "To'xta... TO'XTA!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000031
+    m_Localized: "TO'XTA DEDIM!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000032
+    m_Localized: "Nimalar bo'lyapti o'zi?!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000033
+    m_Localized: "OVQAT"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000034
+    m_Localized: "ORTINGGA QAYT"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000035
+    m_Localized: "YOLG'ON"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000036
+    m_Localized: "PUSHAYMON"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000037
+    m_Localized: "ULAR SENI DOIM KUZATISHGAN"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000038
+    m_Localized: "PASTGA TUSHMA"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000039
+    m_Localized: "QO'RQUVINGNI YASHIR"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000040
+    m_Localized: "...Men qayerdaman?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000041
+    m_Localized: "Menga nima bo'ldi..."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000042
+    m_Localized: "Bularning hammasi o'sha lanati pomidorlar sabab bo'ldi."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000043
+    m_Localized: "Ularning ayniganini sezgandim... yemasligim kerak edi."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000044
+    m_Localized: "To'xta... bu nima o'zi?!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000045
+    m_Localized: "Liftni ham buzib tashlashibdi."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000046
+    m_Localized: "Nega endi 0-qavatni ko'rsatyapsan?!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000047
+    m_Localized: "Men tezroq bu yerdan chiqishim kerak."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000048
+    m_Localized: "Siz"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000049
+    m_Localized: "Xayrulla"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000066
+    m_Localized: "E / Reklama orqali Anamaliyani aniqlash"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000067
+    m_Localized: "Siz reklamani to'liq ko'rmadingiz."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000068
+    m_Localized: "Bonusli reklama mavjud emas."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000069
+    m_Localized: "Anamalya aniqlash"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000070
+    m_Localized: ""
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000071
+    m_Localized: "Q - O'tkazish"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000000000072
+    m_Localized: "Reklama yuklanmoqda..."
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

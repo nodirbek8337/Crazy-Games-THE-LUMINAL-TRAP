@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: AnomalyHints_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: c34e31861ecb4782ab0934cc2b9af179, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 2000000000001
+    m_Localized: "No anomaly"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2000000000002
+    m_Localized: "Anomaly: An additional corridor has appeared on your floor that did not exist before. This area does not match the building's original structure."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2000000000003
+    m_Localized: "Anomaly: The placement of the paintings on the floor has changed. You remember them being arranged differently before."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2000000000004
+    m_Localized: "Anomaly: All of the doors on your floor have disappeared. This place no longer looks the way it used to."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2000000000005
+    m_Localized: "Anomaly: Trash bags have appeared at the end of the hallway where there were none before."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2000000000006
+    m_Localized: "Anomaly: A strange wall has appeared in one of the hallways, narrowing the passage."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2000000000007
+    m_Localized: "Anomaly: An unknown creature is waiting for you in the darkness at the end of the hallway. Approaching it is not recommended."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2000000000008
+    m_Localized: "Anomaly: Do not trust the knocking sound coming from behind the door. Those who opened it were met only by death."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2000000000009
+    m_Localized: "Anomaly: A strange cloud has appeared inside the floor. Lightning can occasionally be seen striking from it."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2000000000010
+    m_Localized: "Anomaly: The lights on the floor are strangely turning red. The cause of this phenomenon is unknown."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2000000000011
+    m_Localized: "Anomaly: Last night, one of the doors on the floor was moving strangely. A person who approached it was killed when the door suddenly exploded."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2000000000012
+    m_Localized: "Anomaly: Trash bags have appeared in unusual places on the floor."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2000000000013
+    m_Localized: "Anomaly: A malfunction has occurred in the ventilation system. Electrical sparks are coming out of it."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2000000000014
+    m_Localized: "Anomaly: The door has strangely shifted its position and rotated 90 degrees. The reason for this is unknown."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2000000000015
+    m_Localized: "Anomaly: Trash bags have appeared in front of the elevator where there were none before."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2000000000016
+    m_Localized: "Anomaly: The tiny dust particles that were constantly floating in the air have suddenly disappeared."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2000000000017
+    m_Localized: "Anomaly: All the lights on the floor have gone out. Maybe you should have paid the electricity bill."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2000000000018
+    m_Localized: "Anomaly: The number of ventilation vents on the floor has increased. You clearly remember there being fewer before."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2000000000019
+    m_Localized: "Anomaly: An unknown melody is echoing throughout the floor. Perhaps sometimes you should stop and relax while listening to it."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2000000000020
+    m_Localized: "Anomaly: The entire building is covered in thick smoke. Perhaps this is the true consequence of smoking."
+    m_Metadata:
+      m_Items: []
