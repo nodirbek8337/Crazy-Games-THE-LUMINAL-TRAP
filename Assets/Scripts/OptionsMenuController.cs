@@ -70,6 +70,26 @@ public class OptionsMenuController : MonoBehaviour
         StartCoroutine(ApplySavedLanguageWhenReady());
     }
 
+    private void OnEnable()
+    {
+        if (settingsService == null)
+            settingsService = GameSettingsService.Get();
+
+        if (settingsService != null)
+        {
+            settingsService.LanguageChanged -= HandleLanguageChanged;
+            settingsService.LanguageChanged += HandleLanguageChanged;
+        }
+
+        RefreshLanguageVisualState();
+    }
+
+    private void OnDisable()
+    {
+        if (settingsService != null)
+            settingsService.LanguageChanged -= HandleLanguageChanged;
+    }
+
     IEnumerator AssignFPSControllerWhenReady()
     {
         while (fPSLook == null)
@@ -104,11 +124,7 @@ public class OptionsMenuController : MonoBehaviour
     private IEnumerator ApplySavedLanguageWhenReady()
     {
         yield return LocalizationSettings.InitializationOperation;
-
-        int savedLanguageIndex = settingsService != null
-            ? settingsService.LanguageIndex
-            : (int)LanguageOption.English;
-        UpdateLanguageVisualState(savedLanguageIndex);
+        RefreshLanguageVisualState();
     }
 
     private void BindLanguageButtons()
@@ -195,6 +211,20 @@ public class OptionsMenuController : MonoBehaviour
         SetLanguageVisualState(russianState, selectedLanguageIndex == (int)LanguageOption.Russian);
         SetLanguageVisualState(englishState, selectedLanguageIndex == (int)LanguageOption.English);
         SetLanguageVisualState(turkishState, selectedLanguageIndex == (int)LanguageOption.Turkish);
+    }
+
+    private void RefreshLanguageVisualState()
+    {
+        int savedLanguageIndex = settingsService != null
+            ? settingsService.LanguageIndex
+            : (int)LanguageOption.English;
+
+        UpdateLanguageVisualState(savedLanguageIndex);
+    }
+
+    private void HandleLanguageChanged(int languageIndex)
+    {
+        UpdateLanguageVisualState(languageIndex);
     }
 
     private static void SetLanguageVisualState(LanguageVisualState visualState, bool isSelected)

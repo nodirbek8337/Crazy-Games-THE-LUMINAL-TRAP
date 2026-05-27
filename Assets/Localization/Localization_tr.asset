@@ -19,259 +19,332 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 1000000000001
-    m_Localized: "Oyunu Başlat"
+    m_Localized: "Oyunu Ba\u015Flat"
     m_Metadata:
       m_Items: []
   - m_Id: 1000000000002
-    m_Localized: "Ayarlar"
+    m_Localized: Ayarlar
     m_Metadata:
       m_Items: []
   - m_Id: 1000000000003
-    m_Localized: "Krediler"
+    m_Localized: Krediler
     m_Metadata:
       m_Items: []
   - m_Id: 1000000000004
-    m_Localized: "Çıkış"
+    m_Localized: "\xC7\u0131k\u0131\u015F"
     m_Metadata:
       m_Items: []
   - m_Id: 1000000000005
-    m_Localized: "Devam Et"
+    m_Localized: Devam Et
     m_Metadata:
       m_Items: []
   - m_Id: 1000000000006
-    m_Localized: "Ana Menü"
+    m_Localized: "Ana Men\xFC"
     m_Metadata:
       m_Items: []
   - m_Id: 1000000000007
-    m_Localized: "Ses"
+    m_Localized: Ses
     m_Metadata:
       m_Items: []
   - m_Id: 1000000000008
-    m_Localized: "Fare Hassasiyeti"
+    m_Localized: Fare Hassasiyeti
     m_Metadata:
       m_Items: []
   - m_Id: 1000000000009
-    m_Localized: "Tam Ekran"
+    m_Localized: Tam Ekran
     m_Metadata:
       m_Items: []
   - m_Id: 1000000000010
-    m_Localized: "Pencere Modu"
+    m_Localized: Pencere Modu
     m_Metadata:
       m_Items: []
   - m_Id: 1000000000011
-    m_Localized: "Geri"
+    m_Localized: Geri
     m_Metadata:
       m_Items: []
   - m_Id: 1000000000012
-    m_Localized: "Yükleniyor"
+    m_Localized: "Y\xFCkleniyor"
     m_Metadata:
       m_Items: []
   - m_Id: 1000000000064
-    m_Localized: "Kaç"
+    m_Localized: "Ka\xE7"
     m_Metadata:
       m_Items: []
   - m_Id: 1000000000061
-    m_Localized: "Bizimle İletişime Geçin"
+    m_Localized: "Bizimle \u0130leti\u015Fime Ge\xE7in"
     m_Metadata:
       m_Items: []
   - m_Id: 1000000000062
-    m_Localized: "YouTube"
+    m_Localized: YouTube
     m_Metadata:
       m_Items: []
   - m_Id: 1000000000063
-    m_Localized: "Telegram"
+    m_Localized: Telegram
     m_Metadata:
       m_Items: []
   - m_Id: 1000000000050
-    m_Localized: "Özbekçe"
+    m_Localized: "\xD6zbek\xE7e"
     m_Metadata:
       m_Items: []
   - m_Id: 1000000000051
-    m_Localized: "Rusça"
+    m_Localized: "Rus\xE7a"
     m_Metadata:
       m_Items: []
   - m_Id: 1000000000052
-    m_Localized: "İngilizce"
+    m_Localized: "\u0130ngilizce"
     m_Metadata:
       m_Items: []
   - m_Id: 1000000000053
-    m_Localized: "Türkçe"
+    m_Localized: "T\xFCrk\xE7e"
     m_Metadata:
       m_Items: []
   - m_Id: 1000000000054
-    m_Localized: "E"
+    m_Localized: E
     m_Metadata:
       m_Items: []
   - m_Id: 1000000000055
-    m_Localized: "...Çıkabildim mi?"
+    m_Localized: "...\xC7\u0131kabildim mi?"
     m_Metadata:
       m_Items: []
   - m_Id: 1000000000056
-    m_Localized: "Bu yer... bitti mi?"
+    m_Localized: Bu yer... bitti mi?
     m_Metadata:
       m_Items: []
   - m_Id: 1000000000057
-    m_Localized: "Neden hâlâ korkuyorum...?"
+    m_Localized: "Neden h\xE2l\xE2 korkuyorum...?"
     m_Metadata:
       m_Items: []
   - m_Id: 1000000000058
-    m_Localized: "...O zaman neden hâlâ onların seslerini duyuyorum?"
+    m_Localized: "...O zaman neden h\xE2l\xE2 onlar\u0131n seslerini duyuyorum?"
     m_Metadata:
       m_Items: []
   - m_Id: 1000000000059
-    m_Localized: "Geri dön..."
+    m_Localized: "Geri d\xF6n..."
     m_Metadata:
       m_Items: []
   - m_Id: 1000000000060
-    m_Localized: "Xayrulla... çıkabildin mi...?"
+    m_Localized: "Xayrulla... \xE7\u0131kabildin mi...?"
     m_Metadata:
       m_Items: []
   - m_Id: 1000000000065
-    m_Localized: "— Son Haberler — Bu sabah şehirdeki eski apartmanlardan birinin asansöründe 27 yaşındaki Hayrulla isimli bir adam ölü bulundu. Komşularının söylediklerine göre yaklaşık bir haftadır evinden çıkmamıştı. Ancak soruşturma sırasında dairesinde bu süre boyunca gerçekten orada yaşadığına dair neredeyse hiçbir iz bulunamadı. Uzmanlar hâlâ aynı sorunun cevabını arıyor: Hayrulla gerçekten bir hafta boyunca evinde miydi, yoksa insanların “Luminal Trap” dediği bilinmeyen bir yerde mi kaybolmuştu? En korkutucu olan ise bunun ilk olay olmaması. Son aylarda asansörlerle bağlantılı gizemli olayların sayısı hızla artıyor. Tanıkların söylediklerine göre olaylardan önce kurbanlar kendi kendilerine konuşmaya başlıyor ve bilinmeyen kişilerden mektuplar aldıklarını söylüyorlardı. Polis hâlâ bu olaylarla ilgili resmî bir açıklama yapabilmiş değil. Ancak internet kullanıcıları arasında tek bir isim giderek daha fazla yayılıyor — “Luminal Trap”. Bazıları bunun psikolojik bir hastalık olduğunu düşünürken, bazıları ise oraya giren insanların yavaş yavaş gerçeklik duygusunu kaybettiğini söylüyor. Ve en garip kısmı ise bulunan tüm mektupların sonunda kurbanların kendi isimleri yazıyordu."
+    m_Localized: "\u2014 Son Haberler \u2014 Bu sabah \u015Fehirdeki eski apartmanlardan
+      birinin asans\xF6r\xFCnde 27 ya\u015F\u0131ndaki Hayrulla isimli bir adam \xF6l\xFC
+      bulundu. Kom\u015Fular\u0131n\u0131n s\xF6ylediklerine g\xF6re yakla\u015F\u0131k
+      bir haftad\u0131r evinden \xE7\u0131kmam\u0131\u015Ft\u0131. Ancak soru\u015Fturma
+      s\u0131ras\u0131nda dairesinde bu s\xFCre boyunca ger\xE7ekten orada ya\u015Fad\u0131\u011F\u0131na
+      dair neredeyse hi\xE7bir iz bulunamad\u0131. Uzmanlar h\xE2l\xE2 ayn\u0131
+      sorunun cevab\u0131n\u0131 ar\u0131yor: Hayrulla ger\xE7ekten bir hafta boyunca
+      evinde miydi, yoksa insanlar\u0131n \u201CLuminal Trap\u201D dedi\u011Fi bilinmeyen
+      bir yerde mi kaybolmu\u015Ftu? En korkutucu olan ise bunun ilk olay olmamas\u0131.
+      Son aylarda asans\xF6rlerle ba\u011Flant\u0131l\u0131 gizemli olaylar\u0131n
+      say\u0131s\u0131 h\u0131zla art\u0131yor. Tan\u0131klar\u0131n s\xF6ylediklerine
+      g\xF6re olaylardan \xF6nce kurbanlar kendi kendilerine konu\u015Fmaya ba\u015Fl\u0131yor
+      ve bilinmeyen ki\u015Filerden mektuplar ald\u0131klar\u0131n\u0131 s\xF6yl\xFCyorlard\u0131.
+      Polis h\xE2l\xE2 bu olaylarla ilgili resm\xEE bir a\xE7\u0131klama yapabilmi\u015F
+      de\u011Fil. Ancak internet kullan\u0131c\u0131lar\u0131 aras\u0131nda tek bir
+      isim giderek daha fazla yay\u0131l\u0131yor \u2014 \u201CLuminal Trap\u201D.
+      Baz\u0131lar\u0131 bunun psikolojik bir hastal\u0131k oldu\u011Funu d\xFC\u015F\xFCn\xFCrken,
+      baz\u0131lar\u0131 ise oraya giren insanlar\u0131n yava\u015F yava\u015F ger\xE7eklik
+      duygusunu kaybetti\u011Fini s\xF6yl\xFCyor. Ve en garip k\u0131sm\u0131 ise
+      bulunan t\xFCm mektuplar\u0131n sonunda kurbanlar\u0131n kendi isimleri yaz\u0131yordu."
     m_Metadata:
       m_Items: []
   - m_Id: 1000000000021
-    m_Localized: "Bugün yine düzgün uyuyamadım..."
+    m_Localized: "Bug\xFCn yine d\xFCzg\xFCn uyuyamad\u0131m..."
     m_Metadata:
       m_Items: []
   - m_Id: 1000000000022
-    m_Localized: "Sanırım bir haftadır evden çıkmadığım için."
+    m_Localized: "San\u0131r\u0131m bir haftad\u0131r evden \xE7\u0131kmad\u0131\u011F\u0131m
+      i\xE7in."
     m_Metadata:
       m_Items: []
   - m_Id: 1000000000023
-    m_Localized: "Biraz dolaşırsam belki kendime gelirim."
+    m_Localized: "Biraz dola\u015F\u0131rsam belki kendime gelirim."
     m_Metadata:
       m_Items: []
   - m_Id: 1000000000024
-    m_Localized: "Bir şeyler yanlış..."
+    m_Localized: "Bir \u015Feyler yanl\u0131\u015F..."
     m_Metadata:
       m_Items: []
   - m_Id: 1000000000025
-    m_Localized: "Başım tuhaf hissettiriyor."
+    m_Localized: "Ba\u015F\u0131m tuhaf hissettiriyor."
     m_Metadata:
       m_Items: []
   - m_Id: 1000000000026
-    m_Localized: "$2d#... bu da ne, kat mı?"
+    m_Localized: "$2d#... bu da ne, kat m\u0131?"
     m_Metadata:
       m_Items: []
   - m_Id: 1000000000027
-    m_Localized: "Bir haftadır evden çıkmıyorum diye asansör de mi kafayı yedi?"
+    m_Localized: "Bir haftad\u0131r evden \xE7\u0131km\u0131yorum diye asans\xF6r
+      de mi kafay\u0131 yedi?"
     m_Metadata:
       m_Items: []
   - m_Id: 1000000000028
-    m_Localized: "Neyse... ne olacaksa olsun."
+    m_Localized: Neyse... ne olacaksa olsun.
     m_Metadata:
       m_Items: []
   - m_Id: 1000000000029
-    m_Localized: "Ne oluyor?!"
+    m_Localized: Ne oluyor?!
     m_Metadata:
       m_Items: []
   - m_Id: 1000000000030
-    m_Localized: "Dur... DUR!"
+    m_Localized: Dur... DUR!
     m_Metadata:
       m_Items: []
   - m_Id: 1000000000031
-    m_Localized: "DUR DEDİM!"
+    m_Localized: "DUR DED\u0130M!"
     m_Metadata:
       m_Items: []
   - m_Id: 1000000000032
-    m_Localized: "Neler oluyor böyle?!"
+    m_Localized: "Neler oluyor b\xF6yle?!"
     m_Metadata:
       m_Items: []
   - m_Id: 1000000000033
-    m_Localized: "YEMEK"
+    m_Localized: YEMEK
     m_Metadata:
       m_Items: []
   - m_Id: 1000000000034
-    m_Localized: "ARKANA DÖN"
+    m_Localized: "ARKANA D\xD6N"
     m_Metadata:
       m_Items: []
   - m_Id: 1000000000035
-    m_Localized: "YALAN"
+    m_Localized: YALAN
     m_Metadata:
       m_Items: []
   - m_Id: 1000000000036
-    m_Localized: "PİŞMANLIK"
+    m_Localized: "P\u0130\u015EMANLIK"
     m_Metadata:
       m_Items: []
   - m_Id: 1000000000037
-    m_Localized: "SENİ HEP İZLİYORLARDI"
+    m_Localized: "SEN\u0130 HEP \u0130ZL\u0130YORLARDI"
     m_Metadata:
       m_Items: []
   - m_Id: 1000000000038
-    m_Localized: "AŞAĞI İNME"
+    m_Localized: "A\u015EA\u011EI \u0130NME"
     m_Metadata:
       m_Items: []
   - m_Id: 1000000000039
-    m_Localized: "KORKUNU GİZLE"
+    m_Localized: "KORKUNU G\u0130ZLE"
     m_Metadata:
       m_Items: []
   - m_Id: 1000000000040
-    m_Localized: "...Ben neredeyim?"
+    m_Localized: ...Ben neredeyim?
     m_Metadata:
       m_Items: []
   - m_Id: 1000000000041
-    m_Localized: "Bana ne oldu..."
+    m_Localized: Bana ne oldu...
     m_Metadata:
       m_Items: []
   - m_Id: 1000000000042
-    m_Localized: "Her şey o lanet domatesler yüzünden oldu."
+    m_Localized: "Her \u015Fey o lanet domatesler y\xFCz\xFCnden oldu."
     m_Metadata:
       m_Items: []
   - m_Id: 1000000000043
-    m_Localized: "Bozuk olduklarını hissetmiştim... yememeliydim."
+    m_Localized: "Bozuk olduklar\u0131n\u0131 hissetmi\u015Ftim... yememeliydim."
     m_Metadata:
       m_Items: []
   - m_Id: 1000000000044
-    m_Localized: "Bekle... bu da ne?!"
+    m_Localized: Bekle... bu da ne?!
     m_Metadata:
       m_Items: []
   - m_Id: 1000000000045
-    m_Localized: "Asansörü de bozmuşlar."
+    m_Localized: "Asans\xF6r\xFC de bozmu\u015Flar."
     m_Metadata:
       m_Items: []
   - m_Id: 1000000000046
-    m_Localized: "Neden şimdi 0. katı gösteriyorsun?!"
+    m_Localized: "Neden \u015Fimdi 0. kat\u0131 g\xF6steriyorsun?!"
     m_Metadata:
       m_Items: []
   - m_Id: 1000000000047
-    m_Localized: "Buradan hemen çıkmam lazım."
+    m_Localized: "Buradan hemen \xE7\u0131kmam laz\u0131m."
     m_Metadata:
       m_Items: []
   - m_Id: 1000000000048
-    m_Localized: "SEN"
+    m_Localized: SEN
     m_Metadata:
       m_Items: []
   - m_Id: 1000000000049
-    m_Localized: "Xayrulla"
+    m_Localized: Xayrulla
     m_Metadata:
       m_Items: []
   - m_Id: 1000000000066
-    m_Localized: "E / Reklamayla anomaliyi belirle"
+    m_Localized: E / Reklamayla anomaliyi belirle
     m_Metadata:
       m_Items: []
   - m_Id: 1000000000067
-    m_Localized: "Reklamayı sonuna kadar izlemediniz."
+    m_Localized: "Reklamay\u0131 sonuna kadar izlemediniz."
     m_Metadata:
       m_Items: []
   - m_Id: 1000000000068
-    m_Localized: "Odullu reklam mevcut degil."
+    m_Localized: Odullu reklam mevcut degil.
     m_Metadata:
       m_Items: []
   - m_Id: 1000000000069
-    m_Localized: "Anomaliyi belirle"
+    m_Localized: Anomaliyi belirle
     m_Metadata:
       m_Items: []
   - m_Id: 1000000000070
-    m_Localized: ""
+    m_Localized: 
     m_Metadata:
       m_Items: []
   - m_Id: 1000000000071
-    m_Localized: "Q - Atla"
+    m_Localized: Q - Atla
     m_Metadata:
       m_Items: []
   - m_Id: 1000000000072
-    m_Localized: "Reklam yukleniyor..."
+    m_Localized: Reklam yukleniyor...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8546722077483008
+    m_Localized: Kontroller
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8546722077483009
+    m_Localized: WASD - hareket
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8546722077483010
+    m_Localized: Fare - kamera kontrolu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8546722077483011
+    m_Localized: E - etkilesim
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8546722077483012
+    m_Localized: Shift - kos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8546722077483013
+    m_Localized: Tab - duraklat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8546722077483014
+    m_Localized: Programlama ve Oyun Tasarimi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8546722077483015
+    m_Localized: Nodirbek Masharipov
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8546722077483016
+    m_Localized: 3D Modeller ve Ses Tasarimi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8546722077483017
+    m_Localized: Alecto
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8546722077483019
+    m_Localized: Muzik
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8546722077483021
+    m_Localized: CrazyGames'de mevcut
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8546722077483022
+    m_Localized: Unity ile yapildi
     m_Metadata:
       m_Items: []
   references:

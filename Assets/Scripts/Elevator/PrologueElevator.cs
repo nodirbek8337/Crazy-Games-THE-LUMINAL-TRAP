@@ -49,8 +49,6 @@ public class PrologueElevator : MonoBehaviour, IGoActionReceiver
 
     private IEnumerator PlaySceneStartSequence()
     {
-        // reklama
-        yield return StartCoroutine(CrazyGamesIntegration.ShowMidgameAdAndWait());
         yield return StartCoroutine(OpenDoor());
     }
 

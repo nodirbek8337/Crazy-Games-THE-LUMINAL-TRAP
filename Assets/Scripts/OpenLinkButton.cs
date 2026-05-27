@@ -11,4 +11,14 @@ public class OpenLinkButton : MonoBehaviour
     {
         Application.OpenURL("https://www.youtube.com/@nqalslic_games");
     }
+
+    public void OpenAlecto()
+    {
+        Application.OpenURL("https://t.me/Alecto3d95");
+    }
+
+    public void OpenPixabay()
+    {
+        Application.OpenURL("https://pixabay.com/");
+    }
 }

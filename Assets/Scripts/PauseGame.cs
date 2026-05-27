@@ -15,6 +15,8 @@ public class PauseGame : MonoBehaviour
     public Canvas mainMenuCanvas;
     public Canvas contactMe;
     public Canvas optionsMenu;
+    public Canvas controlsCanvas;
+    public Canvas creditsCanvas;
 
     private static bool gameplayLocked = false;
     private static float cachedTimeScale = 1f;
@@ -37,6 +39,8 @@ public class PauseGame : MonoBehaviour
         if (mainMenuCanvas != null) mainMenuCanvas.enabled = false;
         if (contactMe != null) contactMe.enabled = false;
         if (optionsMenu != null) optionsMenu.enabled = false;
+        if (controlsCanvas != null) controlsCanvas.enabled = false;
+        if (creditsCanvas != null) creditsCanvas.enabled = false;
     }
 
     void Update()
@@ -52,7 +56,7 @@ public class PauseGame : MonoBehaviour
         {
             if (isPaused)
             {
-                if (optionsMenu != null && optionsMenu.enabled)
+                if (IsAnySubmenuOpen())
                 {
                     ReturnToPauseMenu();
                 }
@@ -75,14 +79,22 @@ public class PauseGame : MonoBehaviour
 
     public void OptionsButton()
     {
-        if (mainMenuCanvas != null) mainMenuCanvas.enabled = false;
-        if (optionsMenu != null) optionsMenu.enabled = true;
+        ShowCanvas(optionsMenu);
+    }
+
+    public void ControlsButton()
+    {
+        ShowCanvas(controlsCanvas);
+    }
+
+    public void CreditsButton()
+    {
+        ShowCanvas(creditsCanvas);
     }
 
     public void ReturnToPauseMenu()
     {
-        if (mainMenuCanvas != null) mainMenuCanvas.enabled = true;
-        if (optionsMenu != null) optionsMenu.enabled = false;
+        ShowCanvas(mainMenuCanvas);
     }
 
     private void ResumeValues()
@@ -96,7 +108,7 @@ public class PauseGame : MonoBehaviour
             return;
 
         SetPauseState(true);
-        if (mainMenuCanvas != null) mainMenuCanvas.enabled = showMenu;
+        ShowCanvas(showMenu ? mainMenuCanvas : null);
     }
 
     public void ReturnMainMenu()
@@ -123,8 +135,8 @@ public class PauseGame : MonoBehaviour
         if (mainMenuCanvas != null) mainMenuCanvas.enabled = pause;
         if (contactMe != null) contactMe.enabled = pause;
 
-        if (optionsMenu != null && !pause)
-            optionsMenu.enabled = false;
+        if (!pause)
+            HideSubmenus();
 
         Cursor.lockState = pause ? CursorLockMode.None : CursorLockMode.Locked;
         Cursor.visible = pause;
@@ -232,5 +244,46 @@ public class PauseGame : MonoBehaviour
         }
 
         pausedAudioSources.Clear();
+    }
+
+    private bool IsAnySubmenuOpen()
+    {
+        return IsCanvasEnabled(optionsMenu)
+            || IsCanvasEnabled(controlsCanvas)
+            || IsCanvasEnabled(creditsCanvas);
+    }
+
+    private void ShowCanvas(Canvas canvasToShow)
+    {
+        SetCanvasVisible(mainMenuCanvas, false);
+        SetCanvasVisible(optionsMenu, false);
+        SetCanvasVisible(controlsCanvas, false);
+        SetCanvasVisible(creditsCanvas, false);
+
+        if (canvasToShow != null)
+            SetCanvasVisible(canvasToShow, true);
+    }
+
+    private void HideSubmenus()
+    {
+        SetCanvasVisible(optionsMenu, false);
+        SetCanvasVisible(controlsCanvas, false);
+        SetCanvasVisible(creditsCanvas, false);
+    }
+
+    private static bool IsCanvasEnabled(Canvas canvas)
+    {
+        return canvas != null && canvas.enabled;
+    }
+
+    private static void SetCanvasVisible(Canvas canvas, bool isVisible)
+    {
+        if (canvas == null)
+            return;
+
+        if (canvas.gameObject.activeSelf != isVisible)
+            canvas.gameObject.SetActive(isVisible);
+
+        canvas.enabled = isVisible;
     }
 }

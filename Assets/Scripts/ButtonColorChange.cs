@@ -17,10 +17,7 @@ public class ButtonColorChange : MonoBehaviour, IPointerEnterHandler, IPointerEx
 
     void Start()
     {
-        if (buttonText == null)
-            buttonText = GetComponent<TextMeshProUGUI>();
-
-        originalColor = buttonText.color;
+        EnsureReferences();
     }
 
     public void OnPointerEnter(PointerEventData eventData)
@@ -33,6 +30,17 @@ public class ButtonColorChange : MonoBehaviour, IPointerEnterHandler, IPointerEx
     {
         StopAllCoroutines();
         StartCoroutine(ChangeColor(buttonText, originalColor));
+    }
+
+    private void OnEnable()
+    {
+        EnsureReferences();
+        ResetToOriginalColor();
+    }
+
+    private void OnDisable()
+    {
+        ResetToOriginalColor();
     }
 
     private IEnumerator ChangeColor(TextMeshProUGUI text, Color targetColor)
@@ -48,5 +56,22 @@ public class ButtonColorChange : MonoBehaviour, IPointerEnterHandler, IPointerEx
         }
 
         text.color = targetColor;
+    }
+
+    private void EnsureReferences()
+    {
+        if (buttonText == null)
+            buttonText = GetComponent<TextMeshProUGUI>();
+
+        if (buttonText != null)
+            originalColor = buttonText.color;
+    }
+
+    private void ResetToOriginalColor()
+    {
+        StopAllCoroutines();
+
+        if (buttonText != null)
+            buttonText.color = originalColor;
     }
 }

@@ -19,259 +19,328 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 1000000000001
-    m_Localized: "Boshlash"
+    m_Localized: Boshlash
     m_Metadata:
       m_Items: []
   - m_Id: 1000000000002
-    m_Localized: "Sozlamalar"
+    m_Localized: Sozlamalar
     m_Metadata:
       m_Items: []
   - m_Id: 1000000000003
-    m_Localized: "Mualliflar"
+    m_Localized: Kreditlar
     m_Metadata:
       m_Items: []
   - m_Id: 1000000000004
-    m_Localized: "Chiqish"
+    m_Localized: Chiqish
     m_Metadata:
       m_Items: []
   - m_Id: 1000000000005
-    m_Localized: "Davom etish"
+    m_Localized: Davom etish
     m_Metadata:
       m_Items: []
   - m_Id: 1000000000006
-    m_Localized: "Asosiy menyu"
+    m_Localized: Asosiy menyu
     m_Metadata:
       m_Items: []
   - m_Id: 1000000000007
-    m_Localized: "Ovozni sozlash"
+    m_Localized: Ovozni sozlash
     m_Metadata:
       m_Items: []
   - m_Id: 1000000000008
-    m_Localized: "Sichqoncha harakati"
+    m_Localized: Sichqoncha harakati
     m_Metadata:
       m_Items: []
   - m_Id: 1000000000009
-    m_Localized: "To'liq ekran"
+    m_Localized: To'liq ekran
     m_Metadata:
       m_Items: []
   - m_Id: 1000000000010
-    m_Localized: "Oyna rejimi"
+    m_Localized: Oyna rejimi
     m_Metadata:
       m_Items: []
   - m_Id: 1000000000011
-    m_Localized: "Ortga"
+    m_Localized: Ortga
     m_Metadata:
       m_Items: []
   - m_Id: 1000000000012
-    m_Localized: "Yuklanmoqda"
+    m_Localized: Yuklanmoqda
     m_Metadata:
       m_Items: []
   - m_Id: 1000000000064
-    m_Localized: "Qoch"
+    m_Localized: Qoch
     m_Metadata:
       m_Items: []
   - m_Id: 1000000000061
-    m_Localized: "Biz bilan aloqa"
+    m_Localized: Biz bilan aloqa
     m_Metadata:
       m_Items: []
   - m_Id: 1000000000062
-    m_Localized: "YouTube"
+    m_Localized: YouTube
     m_Metadata:
       m_Items: []
   - m_Id: 1000000000063
-    m_Localized: "Telegram"
+    m_Localized: Telegram
     m_Metadata:
       m_Items: []
   - m_Id: 1000000000050
-    m_Localized: "O'zbek"
+    m_Localized: O'zbek
     m_Metadata:
       m_Items: []
   - m_Id: 1000000000051
-    m_Localized: "Ruscha"
+    m_Localized: Ruscha
     m_Metadata:
       m_Items: []
   - m_Id: 1000000000052
-    m_Localized: "Inglizcha"
+    m_Localized: Inglizcha
     m_Metadata:
       m_Items: []
   - m_Id: 1000000000053
-    m_Localized: "Turkcha"
+    m_Localized: Turkcha
     m_Metadata:
       m_Items: []
   - m_Id: 1000000000054
-    m_Localized: "E"
+    m_Localized: E
     m_Metadata:
       m_Items: []
   - m_Id: 1000000000055
-    m_Localized: "...Men chiqib ketdimmi?"
+    m_Localized: ...Men chiqib ketdimmi?
     m_Metadata:
       m_Items: []
   - m_Id: 1000000000056
-    m_Localized: "Bu joy... tugadimi?"
+    m_Localized: Bu joy... tugadimi?
     m_Metadata:
       m_Items: []
   - m_Id: 1000000000057
-    m_Localized: "Nega hali ham yuragim qo'rqyapti...?"
+    m_Localized: Nega hali ham yuragim qo'rqyapti...?
     m_Metadata:
       m_Items: []
   - m_Id: 1000000000058
-    m_Localized: "...Unda nega hali ham ularning ovozlarini eshityapman?"
+    m_Localized: ...Unda nega hali ham ularning ovozlarini eshityapman?
     m_Metadata:
       m_Items: []
   - m_Id: 1000000000059
-    m_Localized: "Qayt..."
+    m_Localized: Qayt...
     m_Metadata:
       m_Items: []
   - m_Id: 1000000000060
-    m_Localized: "Xayrulla... sen chiqa oldingmi...?"
+    m_Localized: Xayrulla... sen chiqa oldingmi...?
     m_Metadata:
       m_Items: []
   - m_Id: 1000000000065
-    m_Localized: "— So‘nggi yangiliklar — Bugun tongda shahardagi eski turar joy binolaridan birining liftida 27 yoshli Xayrulla ismli erkak o‘lik holda topildi. Qo‘shnilarining aytishicha, u taxminan bir hafta davomida uyidan chiqmagan. Ammo tergov davomida uning kvartirasida yashaganiga oid deyarli hech qanday iz topilmadi. Mutaxassislar hali ham bir savol ustida bosh qotirmoqda: Xayrulla haqiqatan ham bir hafta davomida uyida bo‘lganmi yoki shu vaqt ichida odamlar “Luminal Trap” deb atayotgan noma’lum joyda adashib yurganmi? Eng qo‘rqinchlisi esa bu birinchi holat emas. So‘nggi oylar ichida liftlar bilan bog‘liq sirli hodisalar soni keskin oshib bormoqda. Guvohlarning aytishicha, hodisalardan oldin jabrlanuvchilar o‘zlari bilan gaplashishni boshlashgan va noma’lum odamlardan xatlar olayotganini aytishgan. Politsiya bu hodisalarga hali ham rasmiy izoh bera olmagan. Ammo internet foydalanuvchilari orasida bitta nom tobora ko‘proq tarqalmoqda — “Luminal Trap”. Ba’zilar buni ruhiy kasallik desa, boshqalar bu joyga kirgan odam asta-sekin haqiqatni yo‘qota boshlashini aytmoqda. Va eng g‘alati tomoni — topilgan barcha xatlarning oxirida qurbonlarning o‘z ismlari yozilgan edi."
+    m_Localized: "\u2014 So\u2018nggi yangiliklar \u2014 Bugun tongda shahardagi
+      eski turar joy binolaridan birining liftida 27 yoshli Xayrulla ismli erkak
+      o\u2018lik holda topildi. Qo\u2018shnilarining aytishicha, u taxminan bir hafta
+      davomida uyidan chiqmagan. Ammo tergov davomida uning kvartirasida yashaganiga
+      oid deyarli hech qanday iz topilmadi. Mutaxassislar hali ham bir savol ustida
+      bosh qotirmoqda: Xayrulla haqiqatan ham bir hafta davomida uyida bo\u2018lganmi
+      yoki shu vaqt ichida odamlar \u201CLuminal Trap\u201D deb atayotgan noma\u2019lum
+      joyda adashib yurganmi? Eng qo\u2018rqinchlisi esa bu birinchi holat emas.
+      So\u2018nggi oylar ichida liftlar bilan bog\u2018liq sirli hodisalar soni keskin
+      oshib bormoqda. Guvohlarning aytishicha, hodisalardan oldin jabrlanuvchilar
+      o\u2018zlari bilan gaplashishni boshlashgan va noma\u2019lum odamlardan xatlar
+      olayotganini aytishgan. Politsiya bu hodisalarga hali ham rasmiy izoh bera
+      olmagan. Ammo internet foydalanuvchilari orasida bitta nom tobora ko\u2018proq
+      tarqalmoqda \u2014 \u201CLuminal Trap\u201D. Ba\u2019zilar buni ruhiy kasallik
+      desa, boshqalar bu joyga kirgan odam asta-sekin haqiqatni yo\u2018qota boshlashini
+      aytmoqda. Va eng g\u2018alati tomoni \u2014 topilgan barcha xatlarning oxirida
+      qurbonlarning o\u2018z ismlari yozilgan edi."
     m_Metadata:
       m_Items: []
   - m_Id: 1000000000021
-    m_Localized: "Bugun ham tinch uxlay olmadim..."
+    m_Localized: Bugun ham tinch uxlay olmadim...
     m_Metadata:
       m_Items: []
   - m_Id: 1000000000022
-    m_Localized: "Balki bir haftadan beri uyimdan chiqmaganim uchundir."
+    m_Localized: Balki bir haftadan beri uyimdan chiqmaganim uchundir.
     m_Metadata:
       m_Items: []
   - m_Id: 1000000000023
-    m_Localized: "Bir aylanib kelsam, o'zimga kelib qolarman."
+    m_Localized: Bir aylanib kelsam, o'zimga kelib qolarman.
     m_Metadata:
       m_Items: []
   - m_Id: 1000000000024
-    m_Localized: "Nimadir noto'g'ri..."
+    m_Localized: Nimadir noto'g'ri...
     m_Metadata:
       m_Items: []
   - m_Id: 1000000000025
-    m_Localized: "Boshim g'alati bo'lyapti."
+    m_Localized: Boshim g'alati bo'lyapti.
     m_Metadata:
       m_Items: []
   - m_Id: 1000000000026
-    m_Localized: "$2d#... nima bu, qavatmi?"
+    m_Localized: $2d#... nima bu, qavatmi?
     m_Metadata:
       m_Items: []
   - m_Id: 1000000000027
-    m_Localized: "Bir haftadan beri uyimdan chiqmaganim yetmaganday, endi lift ham aqldan ozdimi?"
+    m_Localized: Bir haftadan beri uyimdan chiqmaganim yetmaganday, endi lift ham
+      aqldan ozdimi?
     m_Metadata:
       m_Items: []
   - m_Id: 1000000000028
-    m_Localized: "Mayli... nima bo'lsa ham."
+    m_Localized: Mayli... nima bo'lsa ham.
     m_Metadata:
       m_Items: []
   - m_Id: 1000000000029
-    m_Localized: "Nima bo'lyapti?!"
+    m_Localized: Nima bo'lyapti?!
     m_Metadata:
       m_Items: []
   - m_Id: 1000000000030
-    m_Localized: "To'xta... TO'XTA!"
+    m_Localized: To'xta... TO'XTA!
     m_Metadata:
       m_Items: []
   - m_Id: 1000000000031
-    m_Localized: "TO'XTA DEDIM!"
+    m_Localized: TO'XTA DEDIM!
     m_Metadata:
       m_Items: []
   - m_Id: 1000000000032
-    m_Localized: "Nimalar bo'lyapti o'zi?!"
+    m_Localized: Nimalar bo'lyapti o'zi?!
     m_Metadata:
       m_Items: []
   - m_Id: 1000000000033
-    m_Localized: "OVQAT"
+    m_Localized: OVQAT
     m_Metadata:
       m_Items: []
   - m_Id: 1000000000034
-    m_Localized: "ORTINGGA QAYT"
+    m_Localized: ORTINGGA QAYT
     m_Metadata:
       m_Items: []
   - m_Id: 1000000000035
-    m_Localized: "YOLG'ON"
+    m_Localized: YOLG'ON
     m_Metadata:
       m_Items: []
   - m_Id: 1000000000036
-    m_Localized: "PUSHAYMON"
+    m_Localized: PUSHAYMON
     m_Metadata:
       m_Items: []
   - m_Id: 1000000000037
-    m_Localized: "ULAR SENI DOIM KUZATISHGAN"
+    m_Localized: ULAR SENI DOIM KUZATISHGAN
     m_Metadata:
       m_Items: []
   - m_Id: 1000000000038
-    m_Localized: "PASTGA TUSHMA"
+    m_Localized: PASTGA TUSHMA
     m_Metadata:
       m_Items: []
   - m_Id: 1000000000039
-    m_Localized: "QO'RQUVINGNI YASHIR"
+    m_Localized: QO'RQUVINGNI YASHIR
     m_Metadata:
       m_Items: []
   - m_Id: 1000000000040
-    m_Localized: "...Men qayerdaman?"
+    m_Localized: ...Men qayerdaman?
     m_Metadata:
       m_Items: []
   - m_Id: 1000000000041
-    m_Localized: "Menga nima bo'ldi..."
+    m_Localized: Menga nima bo'ldi...
     m_Metadata:
       m_Items: []
   - m_Id: 1000000000042
-    m_Localized: "Bularning hammasi o'sha lanati pomidorlar sabab bo'ldi."
+    m_Localized: Bularning hammasi o'sha lanati pomidorlar sabab bo'ldi.
     m_Metadata:
       m_Items: []
   - m_Id: 1000000000043
-    m_Localized: "Ularning ayniganini sezgandim... yemasligim kerak edi."
+    m_Localized: Ularning ayniganini sezgandim... yemasligim kerak edi.
     m_Metadata:
       m_Items: []
   - m_Id: 1000000000044
-    m_Localized: "To'xta... bu nima o'zi?!"
+    m_Localized: To'xta... bu nima o'zi?!
     m_Metadata:
       m_Items: []
   - m_Id: 1000000000045
-    m_Localized: "Liftni ham buzib tashlashibdi."
+    m_Localized: Liftni ham buzib tashlashibdi.
     m_Metadata:
       m_Items: []
   - m_Id: 1000000000046
-    m_Localized: "Nega endi 0-qavatni ko'rsatyapsan?!"
+    m_Localized: Nega endi 0-qavatni ko'rsatyapsan?!
     m_Metadata:
       m_Items: []
   - m_Id: 1000000000047
-    m_Localized: "Men tezroq bu yerdan chiqishim kerak."
+    m_Localized: Men tezroq bu yerdan chiqishim kerak.
     m_Metadata:
       m_Items: []
   - m_Id: 1000000000048
-    m_Localized: "Siz"
+    m_Localized: Siz
     m_Metadata:
       m_Items: []
   - m_Id: 1000000000049
-    m_Localized: "Xayrulla"
+    m_Localized: Xayrulla
     m_Metadata:
       m_Items: []
   - m_Id: 1000000000066
-    m_Localized: "E / Reklama orqali Anamaliyani aniqlash"
+    m_Localized: E / Reklama orqali Anamaliyani aniqlash
     m_Metadata:
       m_Items: []
   - m_Id: 1000000000067
-    m_Localized: "Siz reklamani to'liq ko'rmadingiz."
+    m_Localized: Siz reklamani to'liq ko'rmadingiz.
     m_Metadata:
       m_Items: []
   - m_Id: 1000000000068
-    m_Localized: "Bonusli reklama mavjud emas."
+    m_Localized: Bonusli reklama mavjud emas.
     m_Metadata:
       m_Items: []
   - m_Id: 1000000000069
-    m_Localized: "Anamalya aniqlash"
+    m_Localized: Anamalya aniqlash
     m_Metadata:
       m_Items: []
   - m_Id: 1000000000070
-    m_Localized: ""
+    m_Localized: 
     m_Metadata:
       m_Items: []
   - m_Id: 1000000000071
-    m_Localized: "Q - O'tkazish"
+    m_Localized: Q - O'tkazish
     m_Metadata:
       m_Items: []
   - m_Id: 1000000000072
-    m_Localized: "Reklama yuklanmoqda..."
+    m_Localized: Reklama yuklanmoqda...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8546722077483008
+    m_Localized: Boshqaruvlar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8546722077483009
+    m_Localized: WASD - harakatlanish
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8546722077483010
+    m_Localized: Sichqoncha - kamerani boshqarish
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8546722077483011
+    m_Localized: E - o'zaro harakat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8546722077483012
+    m_Localized: Shift - yugurish
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8546722077483013
+    m_Localized: Tab - pauza
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8546722077483014
+    m_Localized: Dasturlash va Oyin Dizayni
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8546722077483015
+    m_Localized: Nodirbek Masharipov
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8546722077483016
+    m_Localized: 3D Modellar va Ovoz Dizayni
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8546722077483017
+    m_Localized: Alecto
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8546722077483019
+    m_Localized: Musiqa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8546722077483021
+    m_Localized: CrazyGames'da mavjud
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8546722077483022
+    m_Localized: Unity yordamida yaratilgan
     m_Metadata:
       m_Items: []
   references:

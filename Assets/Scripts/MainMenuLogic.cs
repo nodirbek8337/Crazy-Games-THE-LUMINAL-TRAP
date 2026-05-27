@@ -11,6 +11,8 @@ public class MainMenuLogic : MonoBehaviour
     public Canvas loadingCanvas;
     public Canvas mainMenuCanvas;
     public Canvas optionsMenuCanvas;
+    public Canvas controlsCanvas;
+    public Canvas creditsCanvas;
 
     [Header("Loading UI")]
     [SerializeField] private TMP_Text loadingText;
@@ -62,6 +64,16 @@ public class MainMenuLogic : MonoBehaviour
         ShowCanvas(optionsMenuCanvas);
     }
 
+    public void ControlsButton()
+    {
+        ShowCanvas(controlsCanvas);
+    }
+
+    public void CreditsButton()
+    {
+        ShowCanvas(creditsCanvas);
+    }
+
     public void ReturnToMainMenuButton()
     {
         ShowCanvas(mainMenuCanvas);
@@ -77,6 +89,8 @@ public class MainMenuLogic : MonoBehaviour
         SetCanvasVisible(loadingCanvas, false);
         SetCanvasVisible(mainMenuCanvas, false);
         SetCanvasVisible(optionsMenuCanvas, false);
+        SetCanvasVisible(controlsCanvas, false);
+        SetCanvasVisible(creditsCanvas, false);
 
         SetCanvasVisible(canvasToShow, true);
     }
